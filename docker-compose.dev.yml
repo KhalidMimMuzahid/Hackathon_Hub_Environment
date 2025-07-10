@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Backend FastAPI service (development)
+  backend-dev:
+    build:
+      context: ./onchain_fastapi
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=sqlite:///./app.db
+    volumes:
+      - ./onchain_fastapi:/app
+      - backend_data:/app/data
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    restart: unless-stopped
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend Next.js service (development)
+  frontend-dev:
+    build:
+      context: ./hub_nextjs
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000/api/v1
+    volumes:
+      - ./hub_nextjs:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      backend-dev:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - app-network
+
+volumes:
+  backend_data:
+
+networks:
+  app-network:
+    driver: bridge
