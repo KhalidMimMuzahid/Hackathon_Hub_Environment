@@ -2572,6 +2572,14 @@
         "documentation": {}
     },
     {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2589,6 +2597,14 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -3236,22 +3252,6 @@
         "documentation": {}
     },
     {
-        "label": "CustomError",
-        "importPath": "app.exceptions.models",
-        "description": "app.exceptions.models",
-        "isExtraImport": true,
-        "detail": "app.exceptions.models",
-        "documentation": {}
-    },
-    {
-        "label": "CustomError",
-        "importPath": "app.exceptions.models",
-        "description": "app.exceptions.models",
-        "isExtraImport": true,
-        "detail": "app.exceptions.models",
-        "documentation": {}
-    },
-    {
         "label": "TAuth",
         "importPath": "app.common.types",
         "description": "app.common.types",
@@ -3549,6 +3549,14 @@
         "documentation": {}
     },
     {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -3558,6 +3566,14 @@
     },
     {
         "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -7334,17 +7350,8 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
-        "peekOfCode": "requirement_router = APIRouter()\n@requirement_router.post(\"/create_requirement\", response_model=Response[RequirementCreateResponse])\nasync def create_requirement_(\n    request: Request,\n    requirement_data: RequirementCreateRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    auth = get_auth(request)\n    result = await create_requirement(\n        db=db,",
+        "peekOfCode": "requirement_router = APIRouter()\n@requirement_router.post(\"/create_requirement\", response_model=Response[RequirementCreateResponse])\nasync def create_requirement_(\n    request: Request,\n    requirement_data: dict = Body(...),\n    db: AsyncSession = Depends(get_db),\n):\n    try:\n        validated_data = RequirementCreateRequest(**requirement_data)\n    except Exception as e:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
-        "documentation": {}
-    },
-    {
-        "label": "RequirementTypeEnum",
-        "kind": 6,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "peekOfCode": "class RequirementTypeEnum(Enum):\n    text = \"text\"\n    link = \"link\"\n    file = \"file\"\nclass RequirementCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: RequirementTypeEnum\n    text: Optional[str] = None",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "documentation": {}
     },
     {
@@ -7352,7 +7359,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "peekOfCode": "class RequirementCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: RequirementTypeEnum\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod",
+        "peekOfCode": "class RequirementCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: RequirementType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "documentation": {}
     },
@@ -7361,7 +7368,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "peekOfCode": "class RequirementCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: RequirementTypeEnum\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    class Config:",
+        "peekOfCode": "class RequirementCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: RequirementType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    class Config:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "documentation": {}
     },
@@ -7370,7 +7377,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "peekOfCode": "class RequirementGetResponse(RequirementCreateResponse):\n    pass\nclass RequirementUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[RequirementTypeEnum] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")",
+        "peekOfCode": "class RequirementGetResponse(RequirementCreateResponse):\n    pass\nclass RequirementUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[RequirementType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "documentation": {}
     },
@@ -7379,7 +7386,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "peekOfCode": "class RequirementUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[RequirementTypeEnum] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):",
+        "peekOfCode": "class RequirementUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[RequirementType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "documentation": {}
     },
@@ -7415,17 +7422,8 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.routers",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.routers",
-        "peekOfCode": "submittal_router = APIRouter()\n@submittal_router.post(\"/create_submittal\", response_model=Response[SubmittalCreateResponse])\nasync def create_submittal_(\n    request: Request,\n    submittal_data: SubmittalCreateRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    auth = get_auth(request)\n    result = await create_submittal(\n        db=db,",
+        "peekOfCode": "submittal_router = APIRouter()\n@submittal_router.post(\"/create_submittal\", response_model=Response[SubmittalCreateResponse])\nasync def create_submittal_(\n    request: Request,\n    submittal_data: dict = Body(...),\n    db: AsyncSession = Depends(get_db),\n):\n    try:\n        validated_data = SubmittalCreateRequest(**submittal_data)\n    except Exception as e:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.routers",
-        "documentation": {}
-    },
-    {
-        "label": "SubmittalTypeEnum",
-        "kind": 6,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalTypeEnum(Enum):\n    text = \"text\"\n    link = \"link\"\n    file = \"file\"\nclass SubmittalCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalTypeEnum\n    text: Optional[str] = None",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
     {
@@ -7433,7 +7431,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalTypeEnum\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod",
+        "peekOfCode": "class SubmittalCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7442,7 +7440,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalTypeEnum\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    class Config:",
+        "peekOfCode": "class SubmittalCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    class Config:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7451,7 +7449,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalGetResponse(SubmittalCreateResponse):\n    pass\nclass SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalTypeEnum] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")",
+        "peekOfCode": "class SubmittalGetResponse(SubmittalCreateResponse):\n    pass\nclass SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7460,7 +7458,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalTypeEnum] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):",
+        "peekOfCode": "class SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
