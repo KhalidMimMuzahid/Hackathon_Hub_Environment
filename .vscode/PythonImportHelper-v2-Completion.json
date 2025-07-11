@@ -4618,6 +4618,14 @@
         "documentation": {}
     },
     {
+        "label": "update_achievement",
+        "importPath": "app.modules.projects.relatedEntities.achievements.services",
+        "description": "app.modules.projects.relatedEntities.achievements.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.achievements.services",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -4796,6 +4804,14 @@
         "documentation": {}
     },
     {
+        "label": "update_arrangement",
+        "importPath": "app.modules.projects.relatedEntities.arrangements.services",
+        "description": "app.modules.projects.relatedEntities.arrangements.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.arrangements.services",
+        "documentation": {}
+    },
+    {
         "label": "app.modules.projects.relatedEntities.configurations.models",
         "kind": 6,
         "isExtraImport": true,
@@ -4886,6 +4902,14 @@
         "documentation": {}
     },
     {
+        "label": "update_project_configuration",
+        "importPath": "app.modules.projects.relatedEntities.configurations.services",
+        "description": "app.modules.projects.relatedEntities.configurations.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.configurations.services",
+        "documentation": {}
+    },
+    {
         "label": "create_reward",
         "importPath": "app.modules.projects.relatedEntities.rewards.services",
         "description": "app.modules.projects.relatedEntities.rewards.services",
@@ -4895,6 +4919,14 @@
     },
     {
         "label": "list_rewards",
+        "importPath": "app.modules.projects.relatedEntities.rewards.services",
+        "description": "app.modules.projects.relatedEntities.rewards.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.rewards.services",
+        "documentation": {}
+    },
+    {
+        "label": "update_reward",
         "importPath": "app.modules.projects.relatedEntities.rewards.services",
         "description": "app.modules.projects.relatedEntities.rewards.services",
         "isExtraImport": true,
