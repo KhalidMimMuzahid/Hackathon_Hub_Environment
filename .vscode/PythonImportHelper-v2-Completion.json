@@ -3551,6 +3551,14 @@
         "documentation": {}
     },
     {
+        "label": "get_my_profile_service",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
         "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
@@ -5096,6 +5104,14 @@
     },
     {
         "label": "UserProfileUpdateResponse",
+        "importPath": "app.modules.users.schemas",
+        "description": "app.modules.users.schemas",
+        "isExtraImport": true,
+        "detail": "app.modules.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "GetMyProfileResponse",
         "importPath": "app.modules.users.schemas",
         "description": "app.modules.users.schemas",
         "isExtraImport": true,
@@ -6792,6 +6808,15 @@
         "importPath": "onchain_fastapi.app.modules.users.schemas",
         "description": "onchain_fastapi.app.modules.users.schemas",
         "peekOfCode": "class UserProfileUpdateResponse(BaseModel):\n    id: int\n    # userName: str\n    contactInfo :str\n    photoUrl: str | None = None\n    bio : str\n    profilePrivacy: ProfilePrivacyEnum\n    class Config:\n        orm_mode = True\n        extra = \"ignore\"  # This will ignore any extra fields (like \"password\")",
+        "detail": "onchain_fastapi.app.modules.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "GetMyProfileResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.schemas",
+        "description": "onchain_fastapi.app.modules.users.schemas",
+        "peekOfCode": "class GetMyProfileResponse(BaseModel):\n    \"\"\"Comprehensive profile response with all user fields\"\"\"\n    id: int\n    userName: str\n    phone: str\n    name: str\n    contactInfo: str | None = None\n    photoUrl: str | None = None\n    role: UserRoleEnum\n    profilePrivacy: ProfilePrivacyEnum",
         "detail": "onchain_fastapi.app.modules.users.schemas",
         "documentation": {}
     },
