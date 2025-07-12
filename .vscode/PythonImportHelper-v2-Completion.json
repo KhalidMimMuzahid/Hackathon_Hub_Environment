@@ -89,6 +89,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TypedDict",
         "importPath": "typing",
         "description": "typing",
@@ -606,6 +622,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -1218,7 +1242,7 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
+        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1226,7 +1250,7 @@
         "documentation": {}
     },
     {
-        "label": "ForeignKey",
+        "label": "Enum",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -2260,14 +2284,6 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
-        "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2573,6 +2589,30 @@
     },
     {
         "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -4449,6 +4489,14 @@
     },
     {
         "label": "get_file_service",
+        "importPath": "app.modules.files.services",
+        "description": "app.modules.files.services",
+        "isExtraImport": true,
+        "detail": "app.modules.files.services",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file",
         "importPath": "app.modules.files.services",
         "description": "app.modules.files.services",
         "isExtraImport": true,
@@ -6457,6 +6505,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "description": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "peekOfCode": "def upgrade() -> None:\n    # Remove text, link, file columns from submittals table\n    op.drop_column('submittals', 'text')\n    op.drop_column('submittals', 'link')\n    op.drop_column('submittals', 'file')\n    op.drop_column('submittals', 'type')\ndef downgrade() -> None:\n    # Add back text, link, file columns to submittals table\n    op.add_column('submittals', sa.Column('text', sa.String(), nullable=True))\n    op.add_column('submittals', sa.Column('link', sa.String(), nullable=True))",
+        "detail": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "description": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "peekOfCode": "def downgrade() -> None:\n    # Add back text, link, file columns to submittals table\n    op.add_column('submittals', sa.Column('text', sa.String(), nullable=True))\n    op.add_column('submittals', sa.Column('link', sa.String(), nullable=True))\n    op.add_column('submittals', sa.Column('file', sa.String(), nullable=True))\n    op.add_column('submittals', sa.Column('type', sa.Enum('text', 'link', 'file', name='submittaltype'), nullable=False))",
+        "detail": "onchain_fastapi.alembic.versions.684b62eb6bd1_remove_text_link_file_columns_from_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "onchain_fastapi.alembic.versions.ed09a73e5130_sync_all_project_user_models",
         "description": "onchain_fastapi.alembic.versions.ed09a73e5130_sync_all_project_user_models",
         "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('projects',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('title', sa.String(length=255), nullable=False),\n    sa.Column('description', sa.Text(), nullable=False),\n    sa.Column('photoUrl', sa.String(length=255), nullable=True),\n    sa.Column('category', sa.String(length=100), nullable=False),\n    sa.Column('supportEmail', sa.String(length=100), nullable=False),\n    sa.Column('privacy', sa.Enum('public', 'private', name='projectprivacy'), nullable=False),",
@@ -7350,7 +7416,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
-        "peekOfCode": "requirement_router = APIRouter()\n@requirement_router.post(\"/create_requirement\", response_model=Response[RequirementCreateResponse])\nasync def create_requirement_(\n    request: Request,\n    requirement_data: dict = Body(...),\n    db: AsyncSession = Depends(get_db),\n):\n    try:\n        validated_data = RequirementCreateRequest(**requirement_data)\n    except Exception as e:",
+        "peekOfCode": "requirement_router = APIRouter()\n@requirement_router.post(\"/create_requirement\", response_model=Response[RequirementCreateResponse])\nasync def create_requirement_(\n    request: Request,\n    db: AsyncSession = Depends(get_db),\n    payload: str = Form(...),\n    file: Optional[UploadFile] = File(None),\n):\n    data = {}\n    try:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.requirements.routers",
         "documentation": {}
     },
@@ -7413,7 +7479,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
-        "peekOfCode": "class Submittal(Base):\n    __tablename__ = \"submittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    moduleId = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    requirement_no = Column(Integer, nullable=False)\n    title = Column(String, nullable=False)\n    type = Column(Enum(SubmittalType), nullable=False)\n    text = Column(String, nullable=True)\n    link = Column(String, nullable=True)\n    file = Column(String, nullable=True)",
+        "peekOfCode": "class Submittal(Base):\n    __tablename__ = \"submittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    moduleId = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    requirement_no = Column(Integer, nullable=False)\n    title = Column(String, nullable=False)\n    type = Column(Enum(SubmittalType), nullable=False)\n    # Relationship (optional, if needed in queries)\n    module = relationship(\"Module\", back_populates=\"submittals\")",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
         "documentation": {}
     },
@@ -7431,7 +7497,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod",
+        "peekOfCode": "class SubmittalCreateRequest(BaseModel):\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):\n        required_fields = [\"moduleId\", \"requirement_no\", \"title\", \"type\"]\n        for field in required_fields:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7440,7 +7506,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    class Config:",
+        "peekOfCode": "class SubmittalCreateResponse(BaseModel):\n    id: int\n    moduleId: int\n    requirement_no: int\n    title: str\n    type: SubmittalType\n    class Config:\n        orm_mode = True\nclass SubmittalGetResponse(SubmittalCreateResponse):\n    pass",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7449,7 +7515,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalGetResponse(SubmittalCreateResponse):\n    pass\nclass SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")",
+        "peekOfCode": "class SubmittalGetResponse(SubmittalCreateResponse):\n    pass\nclass SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):\n        # Validate type if provided",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
@@ -7458,7 +7524,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
-        "peekOfCode": "class SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    text: Optional[str] = None\n    link: Optional[str] = None\n    file: Optional[str] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):",
+        "peekOfCode": "class SubmittalUpdateRequest(BaseModel):\n    requirement_no: Optional[int] = None\n    title: Optional[str] = None\n    type: Optional[SubmittalType] = None\n    @model_validator(mode=\"before\")\n    @classmethod\n    def validate_fields(cls, values):\n        # Validate type if provided\n        sub_type = values.get(\"type\")\n        if sub_type is not None and not isinstance(sub_type, SubmittalType):",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.modules.relatedEntities.submittals.schemas",
         "documentation": {}
     },
