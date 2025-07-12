@@ -465,6 +465,86 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -1442,6 +1522,30 @@
         "documentation": {}
     },
     {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1498,6 +1602,14 @@
         "documentation": {}
     },
     {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1546,6 +1658,14 @@
         "documentation": {}
     },
     {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1579,6 +1699,22 @@
     },
     {
         "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -2051,7 +2187,7 @@
         "documentation": {}
     },
     {
-        "label": "Base",
+        "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -2060,6 +2196,30 @@
     },
     {
         "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -2116,6 +2276,22 @@
     },
     {
         "label": "init_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -2828,6 +3004,134 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -3061,6 +3365,54 @@
     },
     {
         "label": "ExceptionContent",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
         "importPath": "app.exceptions.models",
         "description": "app.exceptions.models",
         "isExtraImport": true,
@@ -3677,6 +4029,54 @@
         "documentation": {}
     },
     {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "field_validator",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -3739,6 +4139,22 @@
         "isExtraImport": true,
         "importPath": "app.modules.users.models",
         "description": "app.modules.users.models",
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
         "detail": "app.modules.users.models",
         "documentation": {}
     },
@@ -4223,7 +4639,71 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
@@ -4480,14 +4960,6 @@
         "documentation": {}
     },
     {
-        "label": "UUID",
-        "importPath": "sqlalchemy.dialects.postgresql",
-        "description": "sqlalchemy.dialects.postgresql",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.dialects.postgresql",
-        "documentation": {}
-    },
-    {
         "label": "get_file_service",
         "importPath": "app.modules.files.services",
         "description": "app.modules.files.services",
@@ -4541,6 +5013,38 @@
         "description": "app.modules.files.services",
         "isExtraImport": true,
         "detail": "app.modules.files.services",
+        "documentation": {}
+    },
+    {
+        "label": "upload_file",
+        "importPath": "app.modules.files.services",
+        "description": "app.modules.files.services",
+        "isExtraImport": true,
+        "detail": "app.modules.files.services",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
         "documentation": {}
     },
     {
@@ -4738,6 +5242,14 @@
         "documentation": {}
     },
     {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -4807,6 +5319,30 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
         "documentation": {}
     },
     {
@@ -5039,6 +5575,54 @@
         "description": "app.responses.handler",
         "isExtraImport": true,
         "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
         "documentation": {}
     },
     {
@@ -5314,6 +5898,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -5327,6 +5935,30 @@
         "isExtraImport": true,
         "importPath": "app.modules.projects.models",
         "description": "app.modules.projects.models",
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
         "detail": "app.modules.projects.models",
         "documentation": {}
     },
@@ -5687,6 +6319,30 @@
         "documentation": {}
     },
     {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
         "label": "app.modules.projects.relatedEntities.modules.relatedEntities.requirements.models",
         "kind": 6,
         "isExtraImport": true,
@@ -5797,6 +6453,30 @@
         "isExtraImport": true,
         "importPath": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
         "description": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "detail": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submittal",
+        "importPath": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "description": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submittal",
+        "importPath": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "description": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "documentation": {}
+    },
+    {
+        "label": "Submittal",
+        "importPath": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "description": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
+        "isExtraImport": true,
         "detail": "app.modules.projects.relatedEntities.modules.relatedEntities.submittals.models",
         "documentation": {}
     },
@@ -6010,6 +6690,14 @@
         "documentation": {}
     },
     {
+        "label": "get_projects_list",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
         "label": "ProjectPrivacy",
         "importPath": "app.modules.projects.schemas",
         "description": "app.modules.projects.schemas",
@@ -6043,6 +6731,14 @@
     },
     {
         "label": "ProjectGetResponse",
+        "importPath": "app.modules.projects.schemas",
+        "description": "app.modules.projects.schemas",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectsListResponse",
         "importPath": "app.modules.projects.schemas",
         "description": "app.modules.projects.schemas",
         "isExtraImport": true,
@@ -6087,6 +6783,55 @@
         "description": "app.modules.projects.relatedEntities.modules.routers",
         "isExtraImport": true,
         "detail": "app.modules.projects.relatedEntities.modules.routers",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
         "documentation": {}
     },
     {
@@ -6260,6 +7005,30 @@
         "documentation": {}
     },
     {
+        "label": "submission_for_project_router",
+        "importPath": "app.modules.submissions.submissionForProject.routers",
+        "description": "app.modules.submissions.submissionForProject.routers",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.routers",
+        "documentation": {}
+    },
+    {
+        "label": "submission_for_module_router",
+        "importPath": "app.modules.submissions.submissionForModule.routers",
+        "description": "app.modules.submissions.submissionForModule.routers",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.routers",
+        "documentation": {}
+    },
+    {
+        "label": "submission_for_submittal_router",
+        "importPath": "app.modules.submissions.submissionForSubmittal.routers",
+        "description": "app.modules.submissions.submissionForSubmittal.routers",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForSubmittal.routers",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
@@ -6274,15 +7043,6 @@
         "description": "passlib.context",
         "isExtraImport": true,
         "detail": "passlib.context",
-        "documentation": {}
-    },
-    {
-        "label": "math",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
         "documentation": {}
     },
     {
@@ -6392,6 +7152,81 @@
         "description": "app.graphqlSchema.custom_endpoint",
         "isExtraImport": true,
         "detail": "app.graphqlSchema.custom_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittal",
+        "importPath": "app.modules.submissions.submissionForSubmittal.models",
+        "description": "app.modules.submissions.submissionForSubmittal.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForSubmittal.models",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -7740,7 +8575,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.schemas",
         "description": "onchain_fastapi.app.modules.projects.schemas",
-        "peekOfCode": "class ProjectUpdateResponse(ProjectCreateResponse):\n    pass\nclass ProjectGetResponse(ProjectCreateResponse):\n    pass",
+        "peekOfCode": "class ProjectUpdateResponse(ProjectCreateResponse):\n    pass\nclass ProjectGetResponse(ProjectCreateResponse):\n    pass\nclass ProjectListItem(BaseModel):\n    id: int\n    title: str\n    description: str\n    photoUrl: Optional[str] = None\n    category: str",
         "detail": "onchain_fastapi.app.modules.projects.schemas",
         "documentation": {}
     },
@@ -7749,7 +8584,34 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.schemas",
         "description": "onchain_fastapi.app.modules.projects.schemas",
-        "peekOfCode": "class ProjectGetResponse(ProjectCreateResponse):\n    pass",
+        "peekOfCode": "class ProjectGetResponse(ProjectCreateResponse):\n    pass\nclass ProjectListItem(BaseModel):\n    id: int\n    title: str\n    description: str\n    photoUrl: Optional[str] = None\n    category: str\n    privacy: str\n    difficultyLevel: str",
+        "detail": "onchain_fastapi.app.modules.projects.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectListItem",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.schemas",
+        "description": "onchain_fastapi.app.modules.projects.schemas",
+        "peekOfCode": "class ProjectListItem(BaseModel):\n    id: int\n    title: str\n    description: str\n    photoUrl: Optional[str] = None\n    category: str\n    privacy: str\n    difficultyLevel: str\n    points: int\n    keywords: Optional[List[str]] = None",
+        "detail": "onchain_fastapi.app.modules.projects.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectsListResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.schemas",
+        "description": "onchain_fastapi.app.modules.projects.schemas",
+        "peekOfCode": "class ProjectsListResponse(BaseModel):\n    projects: List[ProjectListItem]\n    total: int\n    page: int\n    limit: int\n    totalPages: int\nclass ProjectFilterRequest(BaseModel):\n    category: Optional[str] = None\n    privacy: Optional[ProjectPrivacy] = None\n    difficultyLevel: Optional[DifficultyLevel] = None",
+        "detail": "onchain_fastapi.app.modules.projects.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectFilterRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.schemas",
+        "description": "onchain_fastapi.app.modules.projects.schemas",
+        "peekOfCode": "class ProjectFilterRequest(BaseModel):\n    category: Optional[str] = None\n    privacy: Optional[ProjectPrivacy] = None\n    difficultyLevel: Optional[DifficultyLevel] = None\n    createdByUserId: Optional[int] = None\n    keyword: Optional[str] = None\n    page: int = 1\n    limit: int = 10",
         "detail": "onchain_fastapi.app.modules.projects.schemas",
         "documentation": {}
     },
@@ -7781,6 +8643,60 @@
         "documentation": {}
     },
     {
+        "label": "submission_for_module_router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.routers",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.routers",
+        "peekOfCode": "submission_for_module_router = APIRouter()\n@submission_for_module_router.post(\"/start_module\", response_model=Response[SubmissionForModuleCreateResponse])\nasync def start_module_(\n    request: Request,\n    module_data: SubmissionForModuleCreateRequest = Body(...),\n    db: AsyncSession = Depends(get_db)\n):\n    \"\"\"\n    Start a module for the authenticated user\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.routers",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleCreateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleCreateRequest(BaseModel):\n    module_id: int\n    project_id: int\nclass SubmissionForModuleCreateResponse(BaseModel):\n    id: int\n    module: int\n    project: int\n    user: Optional[int] = None\n    submittedVia: str\n    submittedByUserId: int",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleCreateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleCreateResponse(BaseModel):\n    id: int\n    module: int\n    project: int\n    user: Optional[int] = None\n    submittedVia: str\n    submittedByUserId: int\n    comment: Optional[str] = None\n    status: str\n    startedByUserId: int",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleGetResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleGetResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleUpdateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleUpdateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
         "label": "SubmissionStatusEnum",
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.models",
@@ -7808,11 +8724,65 @@
         "documentation": {}
     },
     {
-        "label": "SubmissionTypeEnum",
+        "label": "submission_for_project_router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.routers",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.routers",
+        "peekOfCode": "submission_for_project_router = APIRouter()\n@submission_for_project_router.post(\"/start_project\", response_model=Response[SubmissionForProjectCreateResponse])\nasync def start_project_(\n    request: Request,\n    project_data: SubmissionForProjectCreateRequest = Body(...),\n    db: AsyncSession = Depends(get_db)\n):\n    \"\"\"\n    Start a project for the authenticated user\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.routers",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProjectCreateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "peekOfCode": "class SubmissionForProjectCreateRequest(BaseModel):\n    project_id: int\nclass SubmissionForProjectCreateResponse(BaseModel):\n    id: int\n    project: int\n    user: Optional[int] = None\n    submittedVia: str\n    submittedByUserId: int\n    comment: Optional[str] = None\n    status: str",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProjectCreateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "peekOfCode": "class SubmissionForProjectCreateResponse(BaseModel):\n    id: int\n    project: int\n    user: Optional[int] = None\n    submittedVia: str\n    submittedByUserId: int\n    comment: Optional[str] = None\n    status: str\n    point: Optional[int] = None\n    lateSubmission: bool",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProjectGetResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "peekOfCode": "class SubmissionForProjectGetResponse(SubmissionForProjectCreateResponse):\n    pass\nclass SubmissionForProjectUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForProjectUpdateResponse(SubmissionForProjectCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProjectUpdateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "peekOfCode": "class SubmissionForProjectUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForProjectUpdateResponse(SubmissionForProjectCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProjectUpdateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "peekOfCode": "class SubmissionForProjectUpdateResponse(SubmissionForProjectCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForProject.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionStatusEnum",
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
-        "peekOfCode": "class SubmissionTypeEnum(str, enum.Enum):\n    text = \"text\"\n    link = \"link\"\n    file = \"file\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)",
+        "peekOfCode": "class SubmissionStatusEnum(str, enum.Enum):\n    started = \"started\"\n    submitted = \"submitted\"\n    completed = \"completed\"\n    graded = \"graded\"\n    failed = \"failed\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "documentation": {}
     },
@@ -7821,7 +8791,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
-        "peekOfCode": "class SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    module = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    submittal = Column(Integer, ForeignKey(\"submittals.id\", ondelete=\"CASCADE\"), nullable=False)\n    type = Column(Enum(SubmissionTypeEnum), nullable=False)\n    text = Column(String, nullable=True)",
+        "peekOfCode": "class SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    submittal = Column(Integer, ForeignKey(\"submittals.id\", ondelete=\"CASCADE\"), nullable=False)\n    module = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    project = Column(Integer, ForeignKey(\"projects.id\", ondelete=\"CASCADE\"), nullable=False)\n    user = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=True)",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "documentation": {}
     },
@@ -7830,8 +8800,80 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
-        "peekOfCode": "class SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    module = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    submittal = Column(Integer, ForeignKey(\"submittals.id\", ondelete=\"CASCADE\"), nullable=False)\n    type = Column(Enum(SubmissionTypeEnum), nullable=False)\n    text = Column(String, nullable=True)\n    link = Column(String, nullable=True)\n    file = Column(String, nullable=True)\n    user = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=True)",
+        "peekOfCode": "class SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)\n    submittal = Column(Integer, ForeignKey(\"submittals.id\", ondelete=\"CASCADE\"), nullable=False)\n    module = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    project = Column(Integer, ForeignKey(\"projects.id\", ondelete=\"CASCADE\"), nullable=False)\n    user = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=True)\n    submittedVia = Column(Enum(SubmittedViaEnum), nullable=False)\n    submittedByUserId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    submissionText = Column(String, nullable=True)",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
+        "documentation": {}
+    },
+    {
+        "label": "submission_for_submittal_router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.routers",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.routers",
+        "peekOfCode": "submission_for_submittal_router = APIRouter()\n@submission_for_submittal_router.post(\"/create_submission\", response_model=Response[SubmissionForSubmittalCreateResponse])\nasync def create_submission_(\n    request: Request,\n    db: AsyncSession = Depends(get_db),\n    payload: str = Form(...),\n    file: Optional[UploadFile] = File(None)\n):\n    \"\"\"\n    Create a submittal submission for the authenticated user",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.routers",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalCreateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalCreateRequest(BaseModel):\n    submittal_id: int\n    module_id: int\n    project_id: int\n    submission_text: Optional[str] = None\n    submission_link: Optional[str] = None\n    # submission_file will be handled separately as UploadFile\nclass SubmissionForSubmittalCreateResponse(BaseModel):\n    id: int\n    submittal: int",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalCreateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalCreateResponse(BaseModel):\n    id: int\n    submittal: int\n    module: int\n    project: int\n    user: Optional[int] = None\n    submittedVia: str\n    submittedByUserId: int\n    submissionText: Optional[str] = None\n    submissionLink: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalGetResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalGetResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalUpdateRequest(BaseModel):\n    submission_text: Optional[str] = None\n    submission_link: Optional[str] = None\n    # submission_file will be handled separately as UploadFile\nclass SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalUpdateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalUpdateRequest(BaseModel):\n    submission_text: Optional[str] = None\n    submission_link: Optional[str] = None\n    # submission_file will be handled separately as UploadFile\nclass SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalUpdateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalGradeRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalGradeResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
+        "peekOfCode": "class SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "documentation": {}
     },
     {
@@ -8055,7 +9097,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.routes.router",
         "description": "onchain_fastapi.app.routes.router",
-        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])",
+        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])",
         "detail": "onchain_fastapi.app.routes.router",
         "documentation": {}
     },
@@ -8255,6 +9297,96 @@
         "description": "onchain_fastapi.app.main",
         "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Replace with your frontend URL\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Allow all methods (GET, POST, etc.)\n    allow_headers=[\"*\"],  # Allow all headers\n)\n# # If you want to automatically initialize your DB on startup,\n@app.on_event(\"startup\")",
         "detail": "onchain_fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "TestSubmissionIntegration",
+        "kind": 6,
+        "importPath": "onchain_fastapi.tests.test_submission_integration",
+        "description": "onchain_fastapi.tests.test_submission_integration",
+        "peekOfCode": "class TestSubmissionIntegration:\n    \"\"\"Integration tests for complete submission workflows\"\"\"\n    @pytest.fixture\n    async def setup_complete_project(self, db_session: AsyncSession):\n        \"\"\"Set up a complete project with modules and submittals\"\"\"\n        # Create users\n        creator = User(\n            name=\"Project Creator\",\n            email=\"creator@test.com\",\n            username=\"creator\",",
+        "detail": "onchain_fastapi.tests.test_submission_integration",
+        "documentation": {}
+    },
+    {
+        "label": "TestSubmissions",
+        "kind": 6,
+        "importPath": "onchain_fastapi.tests.test_submissions",
+        "description": "onchain_fastapi.tests.test_submissions",
+        "peekOfCode": "class TestSubmissions:\n    \"\"\"Test suite for submission workflows\"\"\"\n    @pytest.fixture\n    async def test_user(self, db_session: AsyncSession):\n        \"\"\"Create a test user\"\"\"\n        user = User(\n            name=\"Test User\",\n            email=\"test@example.com\",\n            username=\"testuser\",\n            password=\"hashedpassword\",",
+        "detail": "onchain_fastapi.tests.test_submissions",
+        "documentation": {}
+    },
+    {
+        "label": "run_command",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def run_command(command, cwd=None, description=\"\"):\n    \"\"\"Run a command and return the result\"\"\"\n    print(f\"\\n{'='*60}\")\n    print(f\"Running: {description}\")\n    print(f\"Command: {command}\")\n    print(f\"Directory: {cwd or 'current'}\")\n    print(f\"{'='*60}\")\n    try:\n        result = subprocess.run(\n            command,",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "check_dependencies",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def check_dependencies():\n    \"\"\"Check if required dependencies are installed\"\"\"\n    print(\"Checking dependencies...\")\n    # Check Python dependencies\n    python_deps = [\n        \"pytest\",\n        \"httpx\",\n        \"sqlalchemy\",\n        \"fastapi\",\n    ]",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_backend_tests",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def run_backend_tests():\n    \"\"\"Run backend API tests\"\"\"\n    print(\"\\n🚀 Starting Backend Tests\")\n    backend_dir = \"onchain_fastapi\"\n    # Check if backend directory exists\n    if not os.path.exists(backend_dir):\n        print(f\"❌ Backend directory '{backend_dir}' not found\")\n        return False\n    # Run submission-specific tests\n    tests_passed = []",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_frontend_tests",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def run_frontend_tests():\n    \"\"\"Run frontend tests\"\"\"\n    print(\"\\n🎨 Starting Frontend Tests\")\n    frontend_dir = \"hub_nextjs\"\n    # Check if frontend directory exists\n    if not os.path.exists(frontend_dir):\n        print(f\"❌ Frontend directory '{frontend_dir}' not found\")\n        return False\n    # Run submission-specific tests\n    tests_passed = []",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_api_integration_tests",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def run_api_integration_tests():\n    \"\"\"Run API integration tests\"\"\"\n    print(\"\\n🔗 Starting API Integration Tests\")\n    # Start the backend server in test mode\n    backend_start = run_command(\n        \"python -m uvicorn app.main:app --host 0.0.0.0 --port 8001 &\",\n        cwd=\"onchain_fastapi\",\n        description=\"Starting Backend Server for Integration Tests\"\n    )\n    if not backend_start:",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "run_e2e_tests",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def run_e2e_tests():\n    \"\"\"Run end-to-end tests\"\"\"\n    print(\"\\n🎭 Starting End-to-End Tests\")\n    # Check if Playwright is available\n    try:\n        import playwright\n    except ImportError:\n        print(\"❌ Playwright not installed. Skipping E2E tests.\")\n        print(\"Install with: pip install playwright && playwright install\")\n        return True  # Don't fail the entire test suite",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "generate_test_report",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def generate_test_report():\n    \"\"\"Generate a comprehensive test report\"\"\"\n    print(\"\\n📊 Generating Test Report\")\n    report = \"\"\"\n# Submission System Test Report\n## Test Coverage Areas\n### Backend Tests\n- ✅ Project submission API endpoints\n- ✅ Module submission API endpoints  \n- ✅ Submittal submission API endpoints",
+        "detail": "test_runner",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_runner",
+        "description": "test_runner",
+        "peekOfCode": "def main():\n    \"\"\"Main test runner function\"\"\"\n    print(\"🧪 Submission System Test Runner\")\n    print(\"=\" * 60)\n    # Check dependencies\n    if not check_dependencies():\n        print(\"\\n❌ Dependency check failed. Please install missing dependencies.\")\n        sys.exit(1)\n    # Track test results\n    results = {}",
+        "detail": "test_runner",
         "documentation": {}
     }
 ]
