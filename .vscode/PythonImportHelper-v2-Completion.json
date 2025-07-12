@@ -6947,6 +6947,14 @@
         "documentation": {}
     },
     {
+        "label": "model_to_dict",
+        "importPath": "app.utils.model_to_dict",
+        "description": "app.utils.model_to_dict",
+        "isExtraImport": true,
+        "detail": "app.utils.model_to_dict",
+        "documentation": {}
+    },
+    {
         "label": "generate_unique_username",
         "importPath": "app.modules.users.utils",
         "description": "app.modules.users.utils",
