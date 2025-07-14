@@ -601,14 +601,6 @@
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -1754,7 +1746,7 @@
         "documentation": {}
     },
     {
-        "label": "or_",
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -3588,22 +3580,6 @@
         "documentation": {}
     },
     {
-        "label": "Body",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -4604,14 +4580,6 @@
         "documentation": {}
     },
     {
-        "label": "CustomError",
-        "importPath": "app.exceptions.models",
-        "description": "app.exceptions.models",
-        "isExtraImport": true,
-        "detail": "app.exceptions.models",
-        "documentation": {}
-    },
-    {
         "label": "TAuth",
         "importPath": "app.common.types",
         "description": "app.common.types",
@@ -5155,14 +5123,6 @@
         "isExtraImport": true,
         "importPath": "app.modules.users.models",
         "description": "app.modules.users.models",
-        "detail": "app.modules.users.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.modules.users.models",
-        "description": "app.modules.users.models",
-        "isExtraImport": true,
         "detail": "app.modules.users.models",
         "documentation": {}
     },
@@ -6434,22 +6394,6 @@
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -7385,14 +7329,6 @@
         "isExtraImport": true,
         "importPath": "app.modules.projects.models",
         "description": "app.modules.projects.models",
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
         "detail": "app.modules.projects.models",
         "documentation": {}
     },
@@ -9355,7 +9291,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.dependencies.authenticate_user",
         "description": "onchain_fastapi.app.dependencies.authenticate_user",
-        "peekOfCode": "security = HTTPBearer(auto_error=False)\n# Define public routes\nPUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",\n    \"/api/v1/leaderboard/test\"",
+        "peekOfCode": "security = HTTPBearer(auto_error=False)\n# Define public routes\nPUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/users/search\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",",
         "detail": "onchain_fastapi.app.dependencies.authenticate_user",
         "documentation": {}
     },
@@ -9364,7 +9300,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.dependencies.authenticate_user",
         "description": "onchain_fastapi.app.dependencies.authenticate_user",
-        "peekOfCode": "PUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",\n    \"/api/v1/leaderboard/test\"\n}\nGRAPHQL_PUBLIC_OPERATIONS = {",
+        "peekOfCode": "PUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/users/search\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",\n    \"/api/v1/leaderboard/test\"\n}",
         "detail": "onchain_fastapi.app.dependencies.authenticate_user",
         "documentation": {}
     },
@@ -10473,60 +10409,6 @@
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "peekOfCode": "class JudgeInvitationSummary(BaseModel):\n    \"\"\"Summary of pending judge invitations\"\"\"\n    totalInvitations: int\n    pendingInvitations: int\n    acceptedInvitations: int\n    declinedInvitations: int",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "update_project_judge",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def update_project_judge(db: Session, judge_id: int, request: ProjectJudgeUpdateRequest, user_id: int) -> ProjectJudgeUpdateResponse:\n    \"\"\"\n    Update a project judge assignment\n    Only project creators and admins can update\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(ProjectJudge.id == judge_id).first()\n    if not project_judge:\n        raise ValueError(\"Judge assignment not found\")\n    # Verify permissions",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "accept_judge_invitation",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def accept_judge_invitation(db: Session, request: ProjectJudgeInvitationAcceptRequest, user_id: int) -> ProjectJudgeInvitationAcceptResponse:\n    \"\"\"\n    Accept or decline a judge invitation\n    Only the invited judge can accept/decline\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.projectId == request.projectId,\n            ProjectJudge.judgeUserId == user_id,",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_judge_assignments",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_user_judge_assignments(db: Session, user_id: int) -> List[ProjectJudgeListResponse]:\n    \"\"\"\n    Get all judge assignments for a user\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )\n    ).all()",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "remove_project_judge",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def remove_project_judge(db: Session, judge_id: int, user_id: int) -> bool:\n    \"\"\"\n    Remove a judge from a project\n    Only project creators and admins can remove judges\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(ProjectJudge.id == judge_id).first()\n    if not project_judge:\n        raise ValueError(\"Judge assignment not found\")\n    # Verify permissions",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_judge_panel_projects",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_judge_panel_projects(db: Session, user_id: int) -> List[JudgePanelProjectResponse]:\n    \"\"\"\n    Get all projects where the user is assigned as a judge\n    Returns detailed project information for the judge panel\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_judge_invitation_summary",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_judge_invitation_summary(db: Session, user_id: int) -> JudgeInvitationSummary:\n    \"\"\"\n    Get summary of judge invitations for a user\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )\n    ).all()",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "documentation": {}
     },
     {
@@ -11695,7 +11577,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.users.schemas",
         "description": "onchain_fastapi.app.modules.users.schemas",
-        "peekOfCode": "class UserSearchResponse(BaseModel):\n    \"\"\"Response for user search results\"\"\"\n    id: int\n    name: str\n    userName: str\n    email: str = None\n    photoUrl: str = None\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UserSearchResponse(BaseModel):\n    \"\"\"Response for user search results\"\"\"\n    id: int\n    name: str\n    userName: str\n    email: str | None = None\n    photoUrl: str | None = None\n    class Config:\n        orm_mode = True",
         "detail": "onchain_fastapi.app.modules.users.schemas",
         "documentation": {}
     },
