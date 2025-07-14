@@ -4604,6 +4604,14 @@
         "documentation": {}
     },
     {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
         "label": "TAuth",
         "importPath": "app.common.types",
         "description": "app.common.types",
@@ -5508,6 +5516,30 @@
         "description": "app.modules.users.services",
         "isExtraImport": true,
         "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "search_users",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -8583,6 +8615,14 @@
         "documentation": {}
     },
     {
+        "label": "judgeRouter",
+        "importPath": "app.modules.projects.relatedEntities.judges.router",
+        "description": "app.modules.projects.relatedEntities.judges.router",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.router",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -8705,6 +8745,14 @@
         "documentation": {}
     },
     {
+        "label": "UserSearchResponse",
+        "importPath": "app.modules.users.schemas",
+        "description": "app.modules.users.schemas",
+        "isExtraImport": true,
+        "detail": "app.modules.users.schemas",
+        "documentation": {}
+    },
+    {
         "label": "CustomError",
         "importPath": "app.exceptions.handler",
         "description": "app.exceptions.handler",
@@ -8816,14 +8864,6 @@
         "description": "app.modules.submissions.submissionForSubmittal.routers",
         "isExtraImport": true,
         "detail": "app.modules.submissions.submissionForSubmittal.routers",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "importPath": "app.modules.projects.relatedEntities.judges.router",
-        "description": "app.modules.projects.relatedEntities.judges.router",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.judges.router",
         "documentation": {}
     },
     {
@@ -10337,11 +10377,11 @@
         "documentation": {}
     },
     {
-        "label": "router",
+        "label": "judgeRouter",
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
-        "peekOfCode": "router = APIRouter(prefix=\"/judges\", tags=[\"Project Judges\"])\n@router.post(\"/assign\", response_model=Response[ProjectJudgeCreateResponse])\nasync def assign_judge(\n    request: ProjectJudgeCreateRequest,\n    db: Session = Depends(get_db),\n    current_user: dict = Depends(get_auth)\n):\n    \"\"\"\n    Assign a judge to a project\n    Only project creators and admins can assign judges",
+        "peekOfCode": "judgeRouter = APIRouter()\n@judgeRouter.post(\"/assign\", response_model=Response[ProjectJudgeCreateResponse])\nasync def assign_judge(\n    request: Request,\n    body: ProjectJudgeCreateRequest,\n    db: AsyncSession = Depends(get_db),\n):\n    \"\"\"\n    Assign a judge to a project\n    Only project creators and admins can assign judges",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
         "documentation": {}
     },
@@ -10433,42 +10473,6 @@
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "peekOfCode": "class JudgeInvitationSummary(BaseModel):\n    \"\"\"Summary of pending judge invitations\"\"\"\n    totalInvitations: int\n    pendingInvitations: int\n    acceptedInvitations: int\n    declinedInvitations: int",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_by_id",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_user_by_id(db: Session, user_id: int) -> User:\n    \"\"\"Get user by ID synchronously\"\"\"\n    return db.query(User).filter(User.id == user_id).first()\ndef get_project_by_id(db: Session, project_id: int) -> Project:\n    \"\"\"Get project by ID synchronously\"\"\"\n    return db.query(Project).filter(Project.id == project_id).first()\ndef create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_project_by_id",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_project_by_id(db: Session, project_id: int) -> Project:\n    \"\"\"Get project by ID synchronously\"\"\"\n    return db.query(Project).filter(Project.id == project_id).first()\ndef create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, request.projectId)",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "create_project_judge",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, request.projectId)\n    if not project:\n        raise ValueError(\"Project not found\")\n    # Check if user is project creator or admin",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_project_judges",
-        "kind": 2,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
-        "peekOfCode": "def get_project_judges(db: Session, project_id: int, user_id: int) -> List[ProjectJudgeListResponse]:\n    \"\"\"\n    Get all judges for a project\n    Only project creators, assigned judges, and admins can view\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, project_id)\n    if not project:\n        raise ValueError(\"Project not found\")\n    user = get_user_by_id(db, user_id)",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "documentation": {}
     },
     {
@@ -10827,7 +10831,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.routers",
         "description": "onchain_fastapi.app.modules.projects.routers",
-        "peekOfCode": "project_router = APIRouter()\nproject_router.include_router(projectConfiguration_router, prefix=\"/project_configurations\")\nproject_router.include_router(arrangement_router, prefix=\"/project_arrangements\")\nproject_router.include_router(achievement_router, prefix=\"/project_achievements\")\nproject_router.include_router(reward_router, prefix=\"/project_rewards\")\nproject_router.include_router(module_router, prefix=\"/project_modules\")\n@project_router.post(\"/create_project\"\n                     , response_model=Response[ProjectCreateResponse]\n                     )\nasync def create_project_async (",
+        "peekOfCode": "project_router = APIRouter()\nproject_router.include_router(projectConfiguration_router, prefix=\"/project_configurations\")\nproject_router.include_router(arrangement_router, prefix=\"/project_arrangements\")\nproject_router.include_router(achievement_router, prefix=\"/project_achievements\")\nproject_router.include_router(reward_router, prefix=\"/project_rewards\")\nproject_router.include_router(module_router, prefix=\"/project_modules\")\nproject_router.include_router(judgeRouter, prefix=\"/project_judges\")\n@project_router.post(\"/create_project\"\n                     , response_model=Response[ProjectCreateResponse]\n                     )",
         "detail": "onchain_fastapi.app.modules.projects.routers",
         "documentation": {}
     },
@@ -11682,7 +11686,16 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.users.schemas",
         "description": "onchain_fastapi.app.modules.users.schemas",
-        "peekOfCode": "class UsernameAvailabilityResponse(BaseModel):\n    \"\"\"Response for username availability check\"\"\"\n    available: bool\n    message: str\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class UsernameAvailabilityResponse(BaseModel):\n    \"\"\"Response for username availability check\"\"\"\n    available: bool\n    message: str\n    class Config:\n        orm_mode = True\nclass UserSearchResponse(BaseModel):\n    \"\"\"Response for user search results\"\"\"\n    id: int\n    name: str",
+        "detail": "onchain_fastapi.app.modules.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSearchResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.schemas",
+        "description": "onchain_fastapi.app.modules.users.schemas",
+        "peekOfCode": "class UserSearchResponse(BaseModel):\n    \"\"\"Response for user search results\"\"\"\n    id: int\n    name: str\n    userName: str\n    email: str = None\n    photoUrl: str = None\n    class Config:\n        orm_mode = True",
         "detail": "onchain_fastapi.app.modules.users.schemas",
         "documentation": {}
     },
@@ -11727,7 +11740,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.routes.router",
         "description": "onchain_fastapi.app.routes.router",
-        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])\nrouter.include_router(judge_router, prefix=\"/projects\", tags=[\"Project Judges\"])",
+        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])\n# router.include_router(judge_router, prefix=\"/projects\", tags=[\"Project Judges\"])",
         "detail": "onchain_fastapi.app.routes.router",
         "documentation": {}
     },
