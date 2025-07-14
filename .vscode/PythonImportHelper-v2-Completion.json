@@ -6498,22 +6498,6 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "DeclarativeMeta",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "DeclarativeMeta",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -11586,7 +11570,7 @@
         "kind": 2,
         "importPath": "onchain_fastapi.app.responses.handler",
         "description": "onchain_fastapi.app.responses.handler",
-        "peekOfCode": "def create_response(message: str,\n                    result: Union[Base, List[Base], dict, List[dict], None], \n                    pydantic_model: Optional[Type[declarative_base]] = None,\n                    meta_data: Optional[MetaData] = None\n                    ) -> Response:\n    if not result:\n        return Response(message=message, data=result, meta_data=meta_data)\n    result_dict = None  # Placeholder\n    if isinstance(result, list):\n        # Check if list contains ORM objects",
+        "peekOfCode": "def create_response(message: str,\n                    result: Union[Base, List[Base], dict, List[dict], bool, None],\n                    pydantic_model: Optional[Type] = None,\n                    meta_data: Optional[MetaData] = None\n                    ) -> Response:\n    if not result:\n        return Response(message=message, data=result, meta_data=meta_data)\n    # If no pydantic model is provided, return the result as-is\n    if pydantic_model is None:\n        return Response(message=message, data=result, meta_data=meta_data)",
         "detail": "onchain_fastapi.app.responses.handler",
         "documentation": {}
     },
