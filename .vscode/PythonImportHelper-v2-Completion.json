@@ -105,6 +105,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TypedDict",
         "importPath": "typing",
         "description": "typing",
@@ -273,6 +289,78 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -306,6 +394,118 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -489,7 +689,39 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -538,6 +770,78 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -753,6 +1057,14 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
         "label": "context",
         "importPath": "alembic",
         "description": "alembic",
@@ -827,6 +1139,110 @@
     },
     {
         "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1211,6 +1627,102 @@
     },
     {
         "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1546,6 +2058,14 @@
         "documentation": {}
     },
     {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1602,6 +2122,14 @@
         "documentation": {}
     },
     {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1658,6 +2186,14 @@
         "documentation": {}
     },
     {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1707,6 +2243,14 @@
     },
     {
         "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1787,6 +2331,94 @@
     },
     {
         "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -1930,6 +2562,14 @@
         "documentation": {}
     },
     {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
         "label": "os,",
         "kind": 6,
         "isExtraImport": true,
@@ -1995,6 +2635,22 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.database",
         "description": "app.database",
@@ -2091,38 +2747,6 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
-        "isExtraImport": true,
-        "detail": "app.database",
-        "documentation": {}
-    },
-    {
         "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
@@ -2156,6 +2780,14 @@
     },
     {
         "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -2227,6 +2859,62 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.database",
         "description": "app.database",
@@ -2236,6 +2924,22 @@
     },
     {
         "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -2628,6 +3332,46 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -2733,6 +3477,62 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -3004,6 +3804,30 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -3117,6 +3941,38 @@
     },
     {
         "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -3644,6 +4500,46 @@
         "documentation": {}
     },
     {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomError",
+        "importPath": "app.exceptions.models",
+        "description": "app.exceptions.models",
+        "isExtraImport": true,
+        "detail": "app.exceptions.models",
+        "documentation": {}
+    },
+    {
         "label": "TAuth",
         "importPath": "app.common.types",
         "description": "app.common.types",
@@ -3813,6 +4709,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -3933,6 +4837,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "model_validator",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -4029,7 +4949,7 @@
         "documentation": {}
     },
     {
-        "label": "model_validator",
+        "label": "validator",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -4062,6 +4982,30 @@
     },
     {
         "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "model_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -4139,6 +5083,46 @@
         "isExtraImport": true,
         "importPath": "app.modules.users.models",
         "description": "app.modules.users.models",
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
         "detail": "app.modules.users.models",
         "documentation": {}
     },
@@ -4367,6 +5351,38 @@
         "documentation": {}
     },
     {
+        "label": "get_user_by_id",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "importPath": "app.modules.users.services",
+        "description": "app.modules.users.services",
+        "isExtraImport": true,
+        "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
         "label": "create_user",
         "importPath": "app.modules.users.services",
         "description": "app.modules.users.services",
@@ -4420,6 +5436,54 @@
         "description": "app.modules.users.services",
         "isExtraImport": true,
         "detail": "app.modules.users.services",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -4904,6 +5968,54 @@
         "documentation": {}
     },
     {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
         "label": "UUID",
         "importPath": "sqlalchemy.dialects.postgresql",
         "description": "sqlalchemy.dialects.postgresql",
@@ -5170,6 +6282,22 @@
         "documentation": {}
     },
     {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -5187,6 +6315,30 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -5250,6 +6402,14 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -5259,6 +6419,22 @@
     },
     {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -5322,6 +6498,182 @@
         "documentation": {}
     },
     {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth",
+        "importPath": "app.utils.get_auth",
+        "description": "app.utils.get_auth",
+        "isExtraImport": true,
+        "detail": "app.utils.get_auth",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "app.responses.models",
+        "description": "app.responses.models",
+        "isExtraImport": true,
+        "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
         "label": "Response",
         "importPath": "app.responses.models",
         "description": "app.responses.models",
@@ -5455,6 +6807,593 @@
         "description": "app.responses.models",
         "isExtraImport": true,
         "detail": "app.responses.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "create_response",
+        "importPath": "app.responses.handler",
+        "description": "app.responses.handler",
+        "isExtraImport": true,
+        "detail": "app.responses.handler",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.users.relatedEntities.pointTransactions.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransaction",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionType",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransaction",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionType",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionStatus",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "app.modules.users.relatedEntities.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.submissions.submissionForProject.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionStatusEnum",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.projects.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
         "documentation": {}
     },
     {
@@ -5495,206 +7434,6 @@
         "description": "app.modules.predefines.projectCategories.services",
         "isExtraImport": true,
         "detail": "app.modules.predefines.projectCategories.services",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "create_response",
-        "importPath": "app.responses.handler",
-        "description": "app.responses.handler",
-        "isExtraImport": true,
-        "detail": "app.responses.handler",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
-        "documentation": {}
-    },
-    {
-        "label": "get_auth",
-        "importPath": "app.utils.get_auth",
-        "description": "app.utils.get_auth",
-        "isExtraImport": true,
-        "detail": "app.utils.get_auth",
         "documentation": {}
     },
     {
@@ -5831,199 +7570,6 @@
         "description": "app.modules.projects.relatedEntities.achievements.services",
         "isExtraImport": true,
         "detail": "app.modules.projects.relatedEntities.achievements.services",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "app.modules.projects.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
-        "documentation": {}
-    },
-    {
-        "label": "Project",
-        "importPath": "app.modules.projects.models",
-        "description": "app.modules.projects.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.models",
         "documentation": {}
     },
     {
@@ -6198,6 +7744,242 @@
         "documentation": {}
     },
     {
+        "label": "app.modules.projects.relatedEntities.modules.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "app.modules.projects.relatedEntities.modules.models",
+        "description": "app.modules.projects.relatedEntities.modules.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.modules.models",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.projects.relatedEntities.judges.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.projects.relatedEntities.judges.models",
+        "description": "app.modules.projects.relatedEntities.judges.models",
+        "detail": "app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudge",
+        "importPath": "app.modules.projects.relatedEntities.judges.models",
+        "description": "app.modules.projects.relatedEntities.judges.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudge",
+        "importPath": "app.modules.projects.relatedEntities.judges.models",
+        "description": "app.modules.projects.relatedEntities.judges.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.submissions.submissionForModule.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionStatusEnum",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "app.modules.submissions.submissionForSubmittal.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.modules.submissions.submissionForSubmittal.models",
+        "description": "app.modules.submissions.submissionForSubmittal.models",
+        "detail": "app.modules.submissions.submissionForSubmittal.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittal",
+        "importPath": "app.modules.submissions.submissionForSubmittal.models",
+        "description": "app.modules.submissions.submissionForSubmittal.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForSubmittal.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittal",
+        "importPath": "app.modules.submissions.submissionForSubmittal.models",
+        "description": "app.modules.submissions.submissionForSubmittal.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForSubmittal.models",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_by_id",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_by_id",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "create_project",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "update_project",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_projects_list",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_by_id",
+        "importPath": "app.modules.projects.services",
+        "description": "app.modules.projects.services",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.services",
+        "documentation": {}
+    },
+    {
         "label": "create_requirement",
         "importPath": "app.modules.projects.relatedEntities.modules.relatedEntities.requirements.services",
         "description": "app.modules.projects.relatedEntities.modules.relatedEntities.requirements.services",
@@ -6283,63 +8065,6 @@
         "description": "app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
         "isExtraImport": true,
         "detail": "app.modules.projects.relatedEntities.modules.relatedEntities.requirements.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "app.modules.projects.relatedEntities.modules.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
-        "documentation": {}
-    },
-    {
-        "label": "Module",
-        "importPath": "app.modules.projects.relatedEntities.modules.models",
-        "description": "app.modules.projects.relatedEntities.modules.models",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.relatedEntities.modules.models",
         "documentation": {}
     },
     {
@@ -6666,38 +8391,6 @@
         "documentation": {}
     },
     {
-        "label": "create_project",
-        "importPath": "app.modules.projects.services",
-        "description": "app.modules.projects.services",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.services",
-        "documentation": {}
-    },
-    {
-        "label": "update_project",
-        "importPath": "app.modules.projects.services",
-        "description": "app.modules.projects.services",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_project",
-        "importPath": "app.modules.projects.services",
-        "description": "app.modules.projects.services",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.services",
-        "documentation": {}
-    },
-    {
-        "label": "get_projects_list",
-        "importPath": "app.modules.projects.services",
-        "description": "app.modules.projects.services",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.services",
-        "documentation": {}
-    },
-    {
         "label": "ProjectPrivacy",
         "importPath": "app.modules.projects.schemas",
         "description": "app.modules.projects.schemas",
@@ -6786,30 +8479,6 @@
         "documentation": {}
     },
     {
-        "label": "SubmissionForProject",
-        "importPath": "app.modules.submissions.submissionForProject.models",
-        "description": "app.modules.submissions.submissionForProject.models",
-        "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForProject.models",
-        "documentation": {}
-    },
-    {
-        "label": "SubmissionForProject",
-        "importPath": "app.modules.submissions.submissionForProject.models",
-        "description": "app.modules.submissions.submissionForProject.models",
-        "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForProject.models",
-        "documentation": {}
-    },
-    {
-        "label": "SubmissionForProject",
-        "importPath": "app.modules.submissions.submissionForProject.models",
-        "description": "app.modules.submissions.submissionForProject.models",
-        "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForProject.models",
-        "documentation": {}
-    },
-    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -6819,19 +8488,28 @@
         "documentation": {}
     },
     {
-        "label": "SubmissionForModule",
-        "importPath": "app.modules.submissions.submissionForModule.models",
-        "description": "app.modules.submissions.submissionForModule.models",
+        "label": "app.modules.leaderboard.models",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForModule.models",
+        "importPath": "app.modules.leaderboard.models",
+        "description": "app.modules.leaderboard.models",
+        "detail": "app.modules.leaderboard.models",
         "documentation": {}
     },
     {
-        "label": "SubmissionForModule",
-        "importPath": "app.modules.submissions.submissionForModule.models",
-        "description": "app.modules.submissions.submissionForModule.models",
+        "label": "LeaderboardEntry",
+        "importPath": "app.modules.leaderboard.models",
+        "description": "app.modules.leaderboard.models",
         "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForModule.models",
+        "detail": "app.modules.leaderboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "LeaderboardEntry",
+        "importPath": "app.modules.leaderboard.models",
+        "description": "app.modules.leaderboard.models",
+        "isExtraImport": true,
+        "detail": "app.modules.leaderboard.models",
         "documentation": {}
     },
     {
@@ -7037,6 +8715,46 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "importPath": "app.modules.projects.relatedEntities.judges.router",
+        "description": "app.modules.projects.relatedEntities.judges.router",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.projects.relatedEntities.dashboard.router",
+        "description": "app.modules.projects.relatedEntities.dashboard.router",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.dashboard.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.scoring.router",
+        "description": "app.modules.scoring.router",
+        "isExtraImport": true,
+        "detail": "app.modules.scoring.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.users.relatedEntities.pointTransactions.router",
+        "description": "app.modules.users.relatedEntities.pointTransactions.router",
+        "isExtraImport": true,
+        "detail": "app.modules.users.relatedEntities.pointTransactions.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.leaderboard.router",
+        "description": "app.modules.leaderboard.router",
+        "isExtraImport": true,
+        "detail": "app.modules.leaderboard.router",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "kind": 6,
         "isExtraImport": true,
@@ -7204,14 +8922,6 @@
         "documentation": {}
     },
     {
-        "label": "SubmissionForSubmittal",
-        "importPath": "app.modules.submissions.submissionForSubmittal.models",
-        "description": "app.modules.submissions.submissionForSubmittal.models",
-        "isExtraImport": true,
-        "detail": "app.modules.submissions.submissionForSubmittal.models",
-        "documentation": {}
-    },
-    {
         "label": "subprocess",
         "kind": 6,
         "isExtraImport": true,
@@ -7366,6 +9076,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "description": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('predefinedProjectCategories')\n    op.alter_column('arrangements', 'eventStartsOn',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),\n               existing_nullable=True)\n    op.alter_column('arrangements', 'eventEndsOn',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),",
+        "detail": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "description": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    # Convert back to VARCHAR\n    op.execute(\"ALTER TABLE submittals ALTER COLUMN type TYPE VARCHAR USING type::text\")\n    # Drop the enum type\n    op.execute(\"DROP TYPE IF EXISTS submittaltype\")\n    op.alter_column('arrangements', 'expiredOn',\n               existing_type=sa.DateTime(timezone=True),\n               type_=postgresql.TIMESTAMP(),\n               existing_nullable=True)",
+        "detail": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "onchain_fastapi.alembic.versions.ed09a73e5130_sync_all_project_user_models",
         "description": "onchain_fastapi.alembic.versions.ed09a73e5130_sync_all_project_user_models",
         "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('projects',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('title', sa.String(length=255), nullable=False),\n    sa.Column('description', sa.Text(), nullable=False),\n    sa.Column('photoUrl', sa.String(length=255), nullable=True),\n    sa.Column('category', sa.String(length=100), nullable=False),\n    sa.Column('supportEmail', sa.String(length=100), nullable=False),\n    sa.Column('privacy', sa.Enum('public', 'private', name='projectprivacy'), nullable=False),",
@@ -7449,7 +9177,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.dependencies.authenticate_user",
         "description": "onchain_fastapi.app.dependencies.authenticate_user",
-        "peekOfCode": "security = HTTPBearer(auto_error=False)\n# Define public routes\nPUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\"\n}\nGRAPHQL_PUBLIC_OPERATIONS = {\n    \"signUp\",",
+        "peekOfCode": "security = HTTPBearer(auto_error=False)\n# Define public routes\nPUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",\n    \"/api/v1/leaderboard/test\"",
         "detail": "onchain_fastapi.app.dependencies.authenticate_user",
         "documentation": {}
     },
@@ -7458,7 +9186,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.dependencies.authenticate_user",
         "description": "onchain_fastapi.app.dependencies.authenticate_user",
-        "peekOfCode": "PUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\"\n}\nGRAPHQL_PUBLIC_OPERATIONS = {\n    \"signUp\",\n    \"signIn\"\n}",
+        "peekOfCode": "PUBLIC_ROUTES = {\n    \"/api/v1/users/register-user\",\n    \"/api/v1/users/login\",\n    \"/api/v1/files/get\",\n    \"/api/v1/files\",\n    \"/api/v1/leaderboard/\",\n    \"/api/v1/leaderboard/statistics\",\n    \"/api/v1/leaderboard/test\"\n}\nGRAPHQL_PUBLIC_OPERATIONS = {",
         "detail": "onchain_fastapi.app.dependencies.authenticate_user",
         "documentation": {}
     },
@@ -7949,6 +9677,69 @@
         "documentation": {}
     },
     {
+        "label": "LeaderboardEntry",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.models",
+        "description": "onchain_fastapi.app.modules.leaderboard.models",
+        "peekOfCode": "class LeaderboardEntry(Base):\n    \"\"\"\n    Model for caching leaderboard data for performance\n    Updated whenever point transactions occur\n    \"\"\"\n    __tablename__ = \"leaderboardEntries\"\n    id = Column(Integer, primary_key=True, index=True)\n    userId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False, unique=True)\n    # Point totals\n    totalPoints = Column(Integer, default=0, nullable=False)",
+        "detail": "onchain_fastapi.app.modules.leaderboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.router",
+        "description": "onchain_fastapi.app.modules.leaderboard.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/leaderboard\", tags=[\"Leaderboard\"])\n@router.get(\"/\", response_model=Response[LeaderboardResponse])\nasync def get_leaderboard_endpoint(\n    timeframe: str = Query(\"all_time\", description=\"Timeframe: all_time, monthly, weekly\"),\n    limit: int = Query(50, description=\"Number of entries to return\"),\n    offset: int = Query(0, description=\"Number of entries to skip\"),\n    includeInactive: bool = Query(False, description=\"Include inactive users\"),\n    db: AsyncSession = Depends(get_db)\n):\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.leaderboard.router",
+        "documentation": {}
+    },
+    {
+        "label": "LeaderboardEntryResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "description": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "peekOfCode": "class LeaderboardEntryResponse(BaseModel):\n    id: int\n    userId: int\n    userName: str\n    name: str\n    photoUrl: Optional[str] = None\n    totalPoints: int\n    projectCompletionPoints: int\n    moduleCompletionPoints: int\n    bonusPoints: int",
+        "detail": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LeaderboardResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "description": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "peekOfCode": "class LeaderboardResponse(BaseModel):\n    entries: List[LeaderboardEntryResponse]\n    totalEntries: int\n    currentPage: int\n    totalPages: int\n    hasNext: bool\n    hasPrev: bool\nclass LeaderboardFilterRequest(BaseModel):\n    timeframe: Optional[str] = \"all_time\"  # all_time, monthly, weekly\n    limit: Optional[int] = 50",
+        "detail": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LeaderboardFilterRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "description": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "peekOfCode": "class LeaderboardFilterRequest(BaseModel):\n    timeframe: Optional[str] = \"all_time\"  # all_time, monthly, weekly\n    limit: Optional[int] = 50\n    offset: Optional[int] = 0\n    includeInactive: Optional[bool] = False\nclass UserRankResponse(BaseModel):\n    userId: int\n    userName: str\n    name: str\n    photoUrl: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserRankResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "description": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "peekOfCode": "class UserRankResponse(BaseModel):\n    userId: int\n    userName: str\n    name: str\n    photoUrl: Optional[str] = None\n    totalPoints: int\n    globalRank: Optional[int] = None\n    monthlyRank: Optional[int] = None\n    weeklyRank: Optional[int] = None\n    projectsCompleted: int",
+        "detail": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PublicProfileResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "description": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "peekOfCode": "class PublicProfileResponse(BaseModel):\n    userId: int\n    userName: str\n    name: str\n    photoUrl: Optional[str] = None\n    bio: Optional[str] = None\n    totalPoints: int\n    globalRank: Optional[int] = None\n    projectsCompleted: int\n    modulesCompleted: int",
+        "detail": "onchain_fastapi.app.modules.leaderboard.schemas",
+        "documentation": {}
+    },
+    {
         "label": "PredefinedBadge",
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.predefines.badges.models",
@@ -8234,6 +10025,312 @@
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.configurations.schemas",
         "peekOfCode": "class ProjectConfigurationGetResponse(ProjectConfigurationCreateResponse):\n    pass",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.configurations.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.router",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/dashboard\", tags=[\"Project Dashboard\"])\n# Simplified endpoints for now - will be enhanced later\n@router.get(\"/test\")\nasync def test_dashboard_endpoint():\n    \"\"\"\n    Test endpoint to verify dashboard router is working\n    \"\"\"\n    return {\"message\": \"Project dashboard system is ready for implementation\"}",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.router",
+        "documentation": {}
+    },
+    {
+        "label": "SolverInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class SolverInfo(BaseModel):\n    id: Optional[int] = None\n    name: str\n    userName: str\n    photoUrl: Optional[str] = None\n    email: Optional[str] = None\nclass SubmissionProgress(BaseModel):\n    completedModules: int\n    totalModules: int\n    percentage: float",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionProgress",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class SubmissionProgress(BaseModel):\n    completedModules: int\n    totalModules: int\n    percentage: float\nclass ModuleSubmissionSummary(BaseModel):\n    id: int\n    moduleId: int\n    moduleTitle: str\n    status: str\n    point: Optional[int] = None",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionSummary",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ModuleSubmissionSummary(BaseModel):\n    id: int\n    moduleId: int\n    moduleTitle: str\n    status: str\n    point: Optional[int] = None\n    maxPoints: int\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None\nclass ProjectSubmissionSummary(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSubmissionSummary",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ProjectSubmissionSummary(BaseModel):\n    id: int\n    userId: int\n    solver: SolverInfo\n    status: str\n    point: Optional[int] = None\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None\n    progress: SubmissionProgress\n    moduleSubmissions: List[ModuleSubmissionSummary]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ProjectInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\n    createdByUserId: int\n    createdAt: datetime\n    totalModules: int\nclass ModuleInfo(BaseModel):\n    id: int\n    title: str",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ModuleInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\n    points: int\n    submissionsCount: int\nclass DashboardStatistics(BaseModel):\n    totalSubmissions: int\n    pendingReview: int\n    approved: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardStatistics",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class DashboardStatistics(BaseModel):\n    totalSubmissions: int\n    pendingReview: int\n    approved: int\n    rejected: int\n    uniqueSolvers: int\nclass ProjectSolutionsDashboardResponse(BaseModel):\n    project: ProjectInfo\n    submissions: List[ProjectSubmissionSummary]\n    statistics: DashboardStatistics",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSolutionsDashboardResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ProjectSolutionsDashboardResponse(BaseModel):\n    project: ProjectInfo\n    submissions: List[ProjectSubmissionSummary]\n    statistics: DashboardStatistics\n    modules: List[ModuleInfo]\nclass SubmittalSubmissionDetail(BaseModel):\n    id: int\n    submittalId: int\n    submissionText: Optional[str] = None\n    submissionLink: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmittalSubmissionDetail",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class SubmittalSubmissionDetail(BaseModel):\n    id: int\n    submittalId: int\n    submissionText: Optional[str] = None\n    submissionLink: Optional[str] = None\n    submissionFile: Optional[str] = None\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None\nclass ModuleSubmissionDetail(BaseModel):\n    id: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionDetail",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ModuleSubmissionDetail(BaseModel):\n    id: int\n    moduleId: int\n    moduleTitle: str\n    moduleDescription: Optional[str] = None\n    status: str\n    point: Optional[int] = None\n    maxPoints: int\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionDetail",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class SubmissionDetail(BaseModel):\n    id: int\n    projectId: int\n    userId: int\n    status: str\n    point: Optional[int] = None\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None\nclass SubmissionDetailsResponse(BaseModel):\n    submission: SubmissionDetail",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionDetailsResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class SubmissionDetailsResponse(BaseModel):\n    submission: SubmissionDetail\n    project: ProjectInfo\n    solver: SolverInfo\n    moduleSubmissions: List[ModuleSubmissionDetail]\nclass ProjectStatisticsResponse(BaseModel):\n    totalSubmissions: int\n    pendingSubmissions: int\n    approvedSubmissions: int\n    rejectedSubmissions: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectStatisticsResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class ProjectStatisticsResponse(BaseModel):\n    totalSubmissions: int\n    pendingSubmissions: int\n    approvedSubmissions: int\n    rejectedSubmissions: int\n    uniqueSolvers: int\n    averageScore: float\nclass DashboardFilterRequest(BaseModel):\n    status: Optional[str] = None  # \"pending\", \"approved\", \"rejected\"\n    solverId: Optional[int] = None",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardFilterRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "peekOfCode": "class DashboardFilterRequest(BaseModel):\n    status: Optional[str] = None  # \"pending\", \"approved\", \"rejected\"\n    solverId: Optional[int] = None\n    moduleId: Optional[int] = None\n    sortBy: Optional[str] = \"createdAt\"  # \"createdAt\", \"point\", \"status\"\n    sortOrder: Optional[str] = \"desc\"  # \"asc\", \"desc\"\n    limit: Optional[int] = 50\n    offset: Optional[int] = 0",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_solutions_dashboard",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "peekOfCode": "def get_project_solutions_dashboard(db: Session, project_id: int, user_id: int) -> Dict[str, Any]:\n    \"\"\"\n    Get comprehensive project solutions dashboard\n    Only project creators, assigned judges, and admins can view\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, project_id)\n    if not project:\n        raise ValueError(\"Project not found\")\n    user = get_user_by_id(db, user_id)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_submission_details",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "peekOfCode": "def get_submission_details(db: Session, submission_id: int, user_id: int) -> Dict[str, Any]:\n    \"\"\"\n    Get detailed submission information for scoring\n    Only project creators, assigned judges, and admins can view\n    \"\"\"\n    # Get the submission\n    submission = db.query(SubmissionForProject).filter(\n        SubmissionForProject.id == submission_id\n    ).first()\n    if not submission:",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_submission_statistics",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "peekOfCode": "def get_project_submission_statistics(db: Session, project_id: int, user_id: int) -> Dict[str, Any]:\n    \"\"\"\n    Get project submission statistics\n    Only project creators, assigned judges, and admins can view\n    \"\"\"\n    # Verify permissions (same as dashboard)\n    project = get_project_by_id(db, project_id)\n    if not project:\n        raise ValueError(\"Project not found\")\n    user = get_user_by_id(db, user_id)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.dashboard.services",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudge",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "peekOfCode": "class ProjectJudge(Base):\n    \"\"\"\n    Model for assigning judges to projects\n    Only project creators and system admins can assign judges\n    \"\"\"\n    __tablename__ = \"projectJudges\"\n    id = Column(Integer, primary_key=True, index=True)\n    projectId = Column(Integer, ForeignKey(\"projects.id\", ondelete=\"CASCADE\"), nullable=False)\n    judgeUserId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    assignedByUserId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/judges\", tags=[\"Project Judges\"])\n# Simplified endpoints for now - will be enhanced later\n@router.get(\"/test\")\nasync def test_judge_endpoint():\n    \"\"\"\n    Test endpoint to verify judge router is working\n    \"\"\"\n    return {\"message\": \"Judge panel system is ready for implementation\"}",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeCreateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeCreateRequest(BaseModel):\n    projectId: int\n    judgeUserId: int\n    canScoreModules: bool = True\n    canViewAllSubmissions: bool = True\n    invitationMessage: Optional[str] = None\nclass ProjectJudgeCreateResponse(BaseModel):\n    id: int\n    projectId: int\n    judgeUserId: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeCreateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeCreateResponse(BaseModel):\n    id: int\n    projectId: int\n    judgeUserId: int\n    assignedByUserId: int\n    isActive: bool\n    canScoreModules: bool\n    canViewAllSubmissions: bool\n    invitationMessage: Optional[str] = None\n    invitationAccepted: bool",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeGetResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeGetResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeUpdateRequest(BaseModel):\n    isActive: Optional[bool] = None\n    canScoreModules: Optional[bool] = None\n    canViewAllSubmissions: Optional[bool] = None\n    invitationMessage: Optional[str] = None\nclass ProjectJudgeUpdateResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeInvitationAcceptRequest(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeUpdateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeUpdateRequest(BaseModel):\n    isActive: Optional[bool] = None\n    canScoreModules: Optional[bool] = None\n    canViewAllSubmissions: Optional[bool] = None\n    invitationMessage: Optional[str] = None\nclass ProjectJudgeUpdateResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeInvitationAcceptRequest(BaseModel):\n    projectId: int\n    accept: bool",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeUpdateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeUpdateResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeInvitationAcceptRequest(BaseModel):\n    projectId: int\n    accept: bool\nclass ProjectJudgeInvitationAcceptResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeListResponse(BaseModel):\n    id: int\n    projectId: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeInvitationAcceptRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeInvitationAcceptRequest(BaseModel):\n    projectId: int\n    accept: bool\nclass ProjectJudgeInvitationAcceptResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeListResponse(BaseModel):\n    id: int\n    projectId: int\n    judgeUserId: int\n    judgeName: str",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeInvitationAcceptResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeInvitationAcceptResponse(ProjectJudgeCreateResponse):\n    pass\nclass ProjectJudgeListResponse(BaseModel):\n    id: int\n    projectId: int\n    judgeUserId: int\n    judgeName: str\n    judgeUserName: str\n    judgePhotoUrl: Optional[str] = None\n    assignedByUserId: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectJudgeListResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ProjectJudgeListResponse(BaseModel):\n    id: int\n    projectId: int\n    judgeUserId: int\n    judgeName: str\n    judgeUserName: str\n    judgePhotoUrl: Optional[str] = None\n    assignedByUserId: int\n    assignedByName: str\n    isActive: bool",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "create_project_judge",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, request.projectId)\n    if not project:\n        raise ValueError(\"Project not found\")\n    # Check if user is project creator or admin",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_judges",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_project_judges(db: Session, project_id: int, user_id: int) -> List[ProjectJudgeListResponse]:\n    \"\"\"\n    Get all judges for a project\n    Only project creators, assigned judges, and admins can view\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, project_id)\n    if not project:\n        raise ValueError(\"Project not found\")\n    user = get_user_by_id(db, user_id)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "update_project_judge",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def update_project_judge(db: Session, judge_id: int, request: ProjectJudgeUpdateRequest, user_id: int) -> ProjectJudgeUpdateResponse:\n    \"\"\"\n    Update a project judge assignment\n    Only project creators and admins can update\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(ProjectJudge.id == judge_id).first()\n    if not project_judge:\n        raise ValueError(\"Judge assignment not found\")\n    # Verify permissions",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "accept_judge_invitation",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def accept_judge_invitation(db: Session, request: ProjectJudgeInvitationAcceptRequest, user_id: int) -> ProjectJudgeInvitationAcceptResponse:\n    \"\"\"\n    Accept or decline a judge invitation\n    Only the invited judge can accept/decline\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.projectId == request.projectId,\n            ProjectJudge.judgeUserId == user_id,",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_judge_assignments",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_user_judge_assignments(db: Session, user_id: int) -> List[ProjectJudgeListResponse]:\n    \"\"\"\n    Get all judge assignments for a user\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )\n    ).all()",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "remove_project_judge",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def remove_project_judge(db: Session, judge_id: int, user_id: int) -> bool:\n    \"\"\"\n    Remove a judge from a project\n    Only project creators and admins can remove judges\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(ProjectJudge.id == judge_id).first()\n    if not project_judge:\n        raise ValueError(\"Judge assignment not found\")\n    # Verify permissions",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "documentation": {}
     },
     {
@@ -8624,6 +10721,195 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.scoring.router",
+        "description": "onchain_fastapi.app.modules.scoring.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/scoring\", tags=[\"Scoring\"])\n# Simplified endpoints for now - will be enhanced later\n@router.get(\"/test\")\nasync def test_scoring_endpoint():\n    \"\"\"\n    Test endpoint to verify scoring router is working\n    \"\"\"\n    return {\"message\": \"Scoring system is ready for implementation\"}",
+        "detail": "onchain_fastapi.app.modules.scoring.router",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreModuleRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoreModuleRequest(BaseModel):\n    moduleSubmissionId: int\n    points: int\n    feedback: Optional[str] = None\n    @validator('points')\n    def validate_points(cls, v):\n        if v < 0:\n            raise ValueError('Points cannot be negative')\n        return v\nclass ModuleSubmissionScore(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionScore",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ModuleSubmissionScore(BaseModel):\n    id: int\n    moduleId: int\n    status: str\n    point: Optional[int] = None\n    maxPoints: int\n    updatedAt: Optional[datetime] = None\nclass ProjectSubmissionScore(BaseModel):\n    id: int\n    status: str",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectSubmissionScore",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ProjectSubmissionScore(BaseModel):\n    id: int\n    status: str\n    point: Optional[int] = None\n    updatedAt: Optional[datetime] = None\nclass ScoreModuleResponse(BaseModel):\n    moduleSubmission: ModuleSubmissionScore\n    projectSubmission: ProjectSubmissionScore\n    pointsAwarded: int\n    feedback: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreModuleResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoreModuleResponse(BaseModel):\n    moduleSubmission: ModuleSubmissionScore\n    projectSubmission: ProjectSubmissionScore\n    pointsAwarded: int\n    feedback: Optional[str] = None\nclass BulkScoreRequest(BaseModel):\n    projectSubmissionId: int\n    moduleScores: Dict[int, int]  # module_id -> points\n    overallFeedback: Optional[str] = None\n    @validator('moduleScores')",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BulkScoreRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class BulkScoreRequest(BaseModel):\n    projectSubmissionId: int\n    moduleScores: Dict[int, int]  # module_id -> points\n    overallFeedback: Optional[str] = None\n    @validator('moduleScores')\n    def validate_module_scores(cls, v):\n        for module_id, points in v.items():\n            if points < 0:\n                raise ValueError(f'Points for module {module_id} cannot be negative')\n        return v",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BulkScoreModuleResult",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class BulkScoreModuleResult(BaseModel):\n    moduleId: Optional[int] = None\n    moduleSubmission: Optional[ModuleSubmissionScore] = None\n    projectSubmission: Optional[ProjectSubmissionScore] = None\n    pointsAwarded: Optional[int] = None\n    feedback: Optional[str] = None\n    error: Optional[str] = None\nclass BulkScoreResponse(BaseModel):\n    projectSubmissionId: int\n    totalPointsAwarded: int",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BulkScoreResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class BulkScoreResponse(BaseModel):\n    projectSubmissionId: int\n    totalPointsAwarded: int\n    moduleResults: List[BulkScoreModuleResult]\n    overallFeedback: Optional[str] = None\nclass RequirementInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\n    type: str",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RequirementInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class RequirementInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\n    type: str\n    fileUrl: Optional[str] = None\nclass SubmittalInfo(BaseModel):\n    id: int\n    title: str\n    type: str",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmittalInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class SubmittalInfo(BaseModel):\n    id: int\n    title: str\n    type: str\n    requirementNo: int\nclass SubmittalSubmissionInfo(BaseModel):\n    id: int\n    submittalId: int\n    submissionText: Optional[str] = None\n    submissionLink: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmittalSubmissionInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class SubmittalSubmissionInfo(BaseModel):\n    id: int\n    submittalId: int\n    submissionText: Optional[str] = None\n    submissionLink: Optional[str] = None\n    submissionFile: Optional[str] = None\n    createdAt: datetime\nclass ScoringModuleSubmission(BaseModel):\n    id: int\n    moduleId: int",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringModuleSubmission",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringModuleSubmission(BaseModel):\n    id: int\n    moduleId: int\n    status: str\n    point: Optional[int] = None\n    createdAt: datetime\n    updatedAt: Optional[datetime] = None\nclass ScoringModuleInfo(BaseModel):\n    id: int\n    title: str",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringModuleInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringModuleInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\n    points: int\nclass ScoringProjectInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\nclass ScoringSolverInfo(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringProjectInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringProjectInfo(BaseModel):\n    id: int\n    title: str\n    description: Optional[str] = None\nclass ScoringSolverInfo(BaseModel):\n    id: int\n    name: str\n    userName: str\n    photoUrl: Optional[str] = None\nclass ModuleSubmissionForScoringResponse(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringSolverInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringSolverInfo(BaseModel):\n    id: int\n    name: str\n    userName: str\n    photoUrl: Optional[str] = None\nclass ModuleSubmissionForScoringResponse(BaseModel):\n    moduleSubmission: ScoringModuleSubmission\n    module: ScoringModuleInfo\n    project: ScoringProjectInfo\n    solver: ScoringSolverInfo",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionForScoringResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ModuleSubmissionForScoringResponse(BaseModel):\n    moduleSubmission: ScoringModuleSubmission\n    module: ScoringModuleInfo\n    project: ScoringProjectInfo\n    solver: ScoringSolverInfo\n    requirements: List[RequirementInfo]\n    submittals: List[SubmittalInfo]\n    submittalSubmissions: List[SubmittalSubmissionInfo]\nclass ScoringHistoryEntry(BaseModel):\n    id: int",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringHistoryEntry",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringHistoryEntry(BaseModel):\n    id: int\n    moduleSubmissionId: int\n    moduleTitle: str\n    solverName: str\n    points: int\n    maxPoints: int\n    scoredAt: datetime\n    scoredBy: str\n    feedback: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringHistoryResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.scoring.schemas",
+        "description": "onchain_fastapi.app.modules.scoring.schemas",
+        "peekOfCode": "class ScoringHistoryResponse(BaseModel):\n    entries: List[ScoringHistoryEntry]\n    totalEntries: int\n    currentPage: int\n    totalPages: int",
+        "detail": "onchain_fastapi.app.modules.scoring.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "score_module_submission",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.scoring.services",
+        "description": "onchain_fastapi.app.modules.scoring.services",
+        "peekOfCode": "def score_module_submission(\n    db: Session, \n    module_submission_id: int, \n    points: int, \n    judge_user_id: int,\n    feedback: Optional[str] = None\n) -> Dict[str, Any]:\n    \"\"\"\n    Score a module submission\n    Only assigned judges and project creators can score",
+        "detail": "onchain_fastapi.app.modules.scoring.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_module_submission_for_scoring",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.scoring.services",
+        "description": "onchain_fastapi.app.modules.scoring.services",
+        "peekOfCode": "def get_module_submission_for_scoring(db: Session, module_submission_id: int, user_id: int) -> Dict[str, Any]:\n    \"\"\"\n    Get module submission details for scoring interface\n    Only assigned judges and project creators can view\n    \"\"\"\n    # Get the module submission\n    module_submission = db.query(SubmissionForModule).filter(\n        SubmissionForModule.id == module_submission_id\n    ).first()\n    if not module_submission:",
+        "detail": "onchain_fastapi.app.modules.scoring.services",
+        "documentation": {}
+    },
+    {
+        "label": "bulk_score_project_submission",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.scoring.services",
+        "description": "onchain_fastapi.app.modules.scoring.services",
+        "peekOfCode": "def bulk_score_project_submission(\n    db: Session,\n    project_submission_id: int,\n    module_scores: Dict[int, int],  # module_id -> points\n    judge_user_id: int,\n    overall_feedback: Optional[str] = None\n) -> Dict[str, Any]:\n    \"\"\"\n    Score multiple modules in a project submission at once\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.scoring.services",
+        "documentation": {}
+    },
+    {
         "label": "SubmittedViaEnum",
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.models",
@@ -8682,7 +10968,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
-        "peekOfCode": "class SubmissionForModuleGetResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "peekOfCode": "class SubmissionForModuleGetResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleCompleteRequest(BaseModel):",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "documentation": {}
     },
@@ -8691,7 +10977,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
-        "peekOfCode": "class SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "peekOfCode": "class SubmissionForModuleUpdateRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleCompleteRequest(BaseModel):\n    module_id: int\n    project_id: int",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "documentation": {}
     },
@@ -8700,7 +10986,25 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
-        "peekOfCode": "class SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "peekOfCode": "class SubmissionForModuleUpdateResponse(SubmissionForModuleCreateResponse):\n    pass\nclass SubmissionForModuleCompleteRequest(BaseModel):\n    module_id: int\n    project_id: int\nclass SubmissionForModuleCompleteResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleCompleteRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleCompleteRequest(BaseModel):\n    module_id: int\n    project_id: int\nclass SubmissionForModuleCompleteResponse(SubmissionForModuleCreateResponse):\n    pass",
+        "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModuleCompleteResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "description": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
+        "peekOfCode": "class SubmissionForModuleCompleteResponse(SubmissionForModuleCreateResponse):\n    pass",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForModule.schemas",
         "documentation": {}
     },
@@ -8790,7 +11094,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
-        "peekOfCode": "class SubmissionStatusEnum(str, enum.Enum):\n    started = \"started\"\n    submitted = \"submitted\"\n    completed = \"completed\"\n    graded = \"graded\"\n    failed = \"failed\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):",
+        "peekOfCode": "class SubmissionStatusEnum(str, enum.Enum):\n    started = \"started\"\n    pending = \"pending\"\n    approved = \"approved\"\n    rejected = \"rejected\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "documentation": {}
     },
@@ -8900,6 +11204,132 @@
         "description": "onchain_fastapi.app.modules.users.relatedEntities.interests.models",
         "peekOfCode": "class UserInterest(Base):\n    __tablename__ = 'userInterests'\n    id = Column(Integer, primary_key=True)\n    user = Column(Integer, ForeignKey('users.id'), nullable=False)\n    category = Column(String, nullable=False)\n    title= Column(String, nullable=False)\n    photoUrl= Column(String, nullable=True)\n    createdAt = Column(DateTime(timezone=True), server_default=func.now())\n    updatedAt = Column(DateTime(timezone=True), onupdate=func.now())",
         "detail": "onchain_fastapi.app.modules.users.relatedEntities.interests.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionType",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "peekOfCode": "class TransactionType(str, enum.Enum):\n    \"\"\"Types of point transactions\"\"\"\n    project_completion = \"project_completion\"\n    module_completion = \"module_completion\"\n    bonus_award = \"bonus_award\"\n    penalty_deduction = \"penalty_deduction\"\n    manual_adjustment = \"manual_adjustment\"\nclass TransactionStatus(str, enum.Enum):\n    \"\"\"Status of point transactions\"\"\"\n    pending = \"pending\"",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionStatus",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "peekOfCode": "class TransactionStatus(str, enum.Enum):\n    \"\"\"Status of point transactions\"\"\"\n    pending = \"pending\"\n    completed = \"completed\"\n    reversed = \"reversed\"\nclass PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions\n    Provides complete audit trail for user points\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransaction",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "peekOfCode": "class PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions\n    Provides complete audit trail for user points\n    \"\"\"\n    __tablename__ = \"pointTransactions\"\n    id = Column(Integer, primary_key=True, index=True)\n    userId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    # Transaction details\n    points = Column(Integer, nullable=False)  # Can be positive or negative",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.router",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.router",
+        "peekOfCode": "router = APIRouter(prefix=\"/points\", tags=[\"Point Transactions\"])\n# Simplified endpoints for now - will be enhanced later\n@router.get(\"/test\")\nasync def test_points_endpoint():\n    \"\"\"\n    Test endpoint to verify point transactions router is working\n    \"\"\"\n    return {\"message\": \"Point transaction system is ready for implementation\"}",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.router",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransactionCreateRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "peekOfCode": "class PointTransactionCreateRequest(BaseModel):\n    userId: int\n    points: int\n    transactionType: TransactionType\n    projectId: Optional[int] = None\n    moduleId: Optional[int] = None\n    submissionForProjectId: Optional[int] = None\n    submissionForModuleId: Optional[int] = None\n    description: Optional[str] = None\nclass PointTransactionCreateResponse(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransactionCreateResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "peekOfCode": "class PointTransactionCreateResponse(BaseModel):\n    id: int\n    userId: int\n    points: int\n    transactionType: TransactionType\n    status: TransactionStatus\n    projectId: Optional[int] = None\n    moduleId: Optional[int] = None\n    submissionForProjectId: Optional[int] = None\n    submissionForModuleId: Optional[int] = None",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransactionGetResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "peekOfCode": "class PointTransactionGetResponse(PointTransactionCreateResponse):\n    pass\nclass PointTransactionListResponse(BaseModel):\n    id: int\n    userId: int\n    points: int\n    transactionType: TransactionType\n    status: TransactionStatus\n    projectId: Optional[int] = None\n    projectTitle: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PointTransactionListResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "peekOfCode": "class PointTransactionListResponse(BaseModel):\n    id: int\n    userId: int\n    points: int\n    transactionType: TransactionType\n    status: TransactionStatus\n    projectId: Optional[int] = None\n    projectTitle: Optional[str] = None\n    moduleId: Optional[int] = None\n    moduleTitle: Optional[str] = None",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserPointSummaryResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "peekOfCode": "class UserPointSummaryResponse(BaseModel):\n    userId: int\n    totalPoints: int\n    projectCompletionPoints: int\n    moduleCompletionPoints: int\n    bonusPoints: int\n    totalTransactions: int\n    lastTransactionAt: Optional[datetime] = None\n    class Config:\n        from_attributes = True",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "create_point_transaction",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "peekOfCode": "def create_point_transaction(\n    db: Session, \n    request: PointTransactionCreateRequest, \n    awarded_by_user_id: int\n) -> PointTransactionCreateResponse:\n    \"\"\"\n    Create a new point transaction\n    Only admins and project creators can create manual transactions\n    \"\"\"\n    # Get the user",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_transactions",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "peekOfCode": "def get_user_transactions(\n    db: Session, \n    user_id: int, \n    limit: int = 50, \n    offset: int = 0,\n    transaction_type: Optional[TransactionType] = None,\n    start_date: Optional[datetime] = None,\n    end_date: Optional[datetime] = None\n) -> List[PointTransactionListResponse]:\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_point_summary",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "peekOfCode": "def get_user_point_summary(db: Session, user_id: int) -> UserPointSummaryResponse:\n    \"\"\"\n    Get user's point summary with breakdown by transaction type\n    \"\"\"\n    user = get_user_by_id(db, user_id)\n    if not user:\n        raise ValueError(\"User not found\")\n    # Get transaction summary\n    project_points = db.query(func.sum(PointTransaction.points)).filter(\n        and_(",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_transactions_by_timeframe",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "peekOfCode": "def get_transactions_by_timeframe(\n    db: Session,\n    user_id: int,\n    timeframe: str = \"all_time\"  # \"weekly\", \"monthly\", \"yearly\", \"all_time\"\n) -> List[PointTransactionListResponse]:\n    \"\"\"\n    Get user transactions filtered by timeframe\n    \"\"\"\n    now = datetime.utcnow()\n    start_date = None",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_transaction",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "description": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
+        "peekOfCode": "def reverse_transaction(db: Session, transaction_id: int, admin_user_id: int, reason: str) -> bool:\n    \"\"\"\n    Reverse a point transaction (admin only)\n    \"\"\"\n    # Get the admin user\n    admin_user = get_user_by_id(db, admin_user_id)\n    if not admin_user or admin_user.role != \"admin\":\n        raise ValueError(\"Only admins can reverse transactions\")\n    # Get the original transaction\n    original_transaction = db.query(PointTransaction).filter(",
+        "detail": "onchain_fastapi.app.modules.users.relatedEntities.pointTransactions.services",
         "documentation": {}
     },
     {
@@ -9105,7 +11535,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.routes.router",
         "description": "onchain_fastapi.app.routes.router",
-        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])",
+        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])\nrouter.include_router(judge_router, prefix=\"/projects\", tags=[\"Project Judges\"])",
         "detail": "onchain_fastapi.app.routes.router",
         "documentation": {}
     },
