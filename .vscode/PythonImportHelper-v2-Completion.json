@@ -1009,6 +1009,38 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "op",
         "importPath": "alembic",
         "description": "alembic",
@@ -2554,6 +2586,14 @@
         "documentation": {}
     },
     {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "postgresql",
         "importPath": "sqlalchemy.dialects",
         "description": "sqlalchemy.dialects",
@@ -2980,6 +3020,22 @@
     },
     {
         "label": "init_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -3533,6 +3589,14 @@
     },
     {
         "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -5175,6 +5239,22 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
         "label": "UserType",
         "importPath": "app.graphqlSchema.modules.users.types",
         "description": "app.graphqlSchema.modules.users.types",
@@ -5375,14 +5455,6 @@
         "documentation": {}
     },
     {
-        "label": "get_user_by_id",
-        "importPath": "app.modules.users.services",
-        "description": "app.modules.users.services",
-        "isExtraImport": true,
-        "detail": "app.modules.users.services",
-        "documentation": {}
-    },
-    {
         "label": "create_user",
         "importPath": "app.modules.users.services",
         "description": "app.modules.users.services",
@@ -5436,14 +5508,6 @@
         "description": "app.modules.users.services",
         "isExtraImport": true,
         "detail": "app.modules.users.services",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncSession",
-        "importPath": "sqlalchemy.ext.asyncio",
-        "description": "sqlalchemy.ext.asyncio",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -6346,6 +6410,14 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -6491,6 +6563,14 @@
     },
     {
         "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -7034,6 +7114,14 @@
         "documentation": {}
     },
     {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -7265,6 +7353,22 @@
         "isExtraImport": true,
         "importPath": "app.modules.projects.models",
         "description": "app.modules.projects.models",
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "app.modules.projects.models",
+        "description": "app.modules.projects.models",
+        "isExtraImport": true,
         "detail": "app.modules.projects.models",
         "documentation": {}
     },
@@ -7850,6 +7954,14 @@
         "documentation": {}
     },
     {
+        "label": "ProjectJudge",
+        "importPath": "app.modules.projects.relatedEntities.judges.models",
+        "description": "app.modules.projects.relatedEntities.judges.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
         "label": "app.modules.submissions.submissionForModule.models",
         "kind": 6,
         "isExtraImport": true,
@@ -7921,14 +8033,6 @@
         "description": "app.modules.submissions.submissionForSubmittal.models",
         "isExtraImport": true,
         "detail": "app.modules.submissions.submissionForSubmittal.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_project_by_id",
-        "importPath": "app.modules.projects.services",
-        "description": "app.modules.projects.services",
-        "isExtraImport": true,
-        "detail": "app.modules.projects.services",
         "documentation": {}
     },
     {
@@ -8890,19 +8994,11 @@
         "documentation": {}
     },
     {
-        "label": "AsyncClient",
-        "importPath": "httpx",
-        "description": "httpx",
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
         "isExtraImport": true,
-        "detail": "httpx",
-        "documentation": {}
-    },
-    {
-        "label": "AsyncClient",
-        "importPath": "httpx",
-        "description": "httpx",
-        "isExtraImport": true,
-        "detail": "httpx",
+        "detail": "fastapi.testclient",
         "documentation": {}
     },
     {
@@ -8919,6 +9015,48 @@
         "description": "app.main",
         "isExtraImport": true,
         "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
         "documentation": {}
     },
     {
@@ -10203,7 +10341,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
-        "peekOfCode": "router = APIRouter(prefix=\"/judges\", tags=[\"Project Judges\"])\n# Simplified endpoints for now - will be enhanced later\n@router.get(\"/test\")\nasync def test_judge_endpoint():\n    \"\"\"\n    Test endpoint to verify judge router is working\n    \"\"\"\n    return {\"message\": \"Judge panel system is ready for implementation\"}",
+        "peekOfCode": "router = APIRouter(prefix=\"/judges\", tags=[\"Project Judges\"])\n@router.post(\"/assign\", response_model=Response[ProjectJudgeCreateResponse])\nasync def assign_judge(\n    request: ProjectJudgeCreateRequest,\n    db: Session = Depends(get_db),\n    current_user: dict = Depends(get_auth)\n):\n    \"\"\"\n    Assign a judge to a project\n    Only project creators and admins can assign judges",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
         "documentation": {}
     },
@@ -10280,6 +10418,42 @@
         "documentation": {}
     },
     {
+        "label": "JudgePanelProjectResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class JudgePanelProjectResponse(BaseModel):\n    \"\"\"Response model for judge panel showing projects where user is a judge\"\"\"\n    id: int\n    projectId: int\n    projectTitle: str\n    projectDescription: Optional[str] = None\n    projectCreatorName: str\n    canScoreModules: bool\n    canViewAllSubmissions: bool\n    invitationAccepted: bool",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "JudgeInvitationSummary",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class JudgeInvitationSummary(BaseModel):\n    \"\"\"Summary of pending judge invitations\"\"\"\n    totalInvitations: int\n    pendingInvitations: int\n    acceptedInvitations: int\n    declinedInvitations: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_id",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_user_by_id(db: Session, user_id: int) -> User:\n    \"\"\"Get user by ID synchronously\"\"\"\n    return db.query(User).filter(User.id == user_id).first()\ndef get_project_by_id(db: Session, project_id: int) -> Project:\n    \"\"\"Get project by ID synchronously\"\"\"\n    return db.query(Project).filter(Project.id == project_id).first()\ndef create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_project_by_id",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_project_by_id(db: Session, project_id: int) -> Project:\n    \"\"\"Get project by ID synchronously\"\"\"\n    return db.query(Project).filter(Project.id == project_id).first()\ndef create_project_judge(db: Session, request: ProjectJudgeCreateRequest, assigned_by_user_id: int) -> ProjectJudgeCreateResponse:\n    \"\"\"\n    Create a new project judge assignment\n    Only project creators and system admins can assign judges\n    \"\"\"\n    # Verify the project exists and user has permission\n    project = get_project_by_id(db, request.projectId)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
         "label": "create_project_judge",
         "kind": 2,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
@@ -10330,6 +10504,24 @@
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "peekOfCode": "def remove_project_judge(db: Session, judge_id: int, user_id: int) -> bool:\n    \"\"\"\n    Remove a judge from a project\n    Only project creators and admins can remove judges\n    \"\"\"\n    # Get the judge assignment\n    project_judge = db.query(ProjectJudge).filter(ProjectJudge.id == judge_id).first()\n    if not project_judge:\n        raise ValueError(\"Judge assignment not found\")\n    # Verify permissions",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_judge_panel_projects",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_judge_panel_projects(db: Session, user_id: int) -> List[JudgePanelProjectResponse]:\n    \"\"\"\n    Get all projects where the user is assigned as a judge\n    Returns detailed project information for the judge panel\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "documentation": {}
+    },
+    {
+        "label": "get_judge_invitation_summary",
+        "kind": 2,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
+        "peekOfCode": "def get_judge_invitation_summary(db: Session, user_id: int) -> JudgeInvitationSummary:\n    \"\"\"\n    Get summary of judge invitations for a user\n    \"\"\"\n    judges = db.query(ProjectJudge).filter(\n        and_(\n            ProjectJudge.judgeUserId == user_id,\n            ProjectJudge.isActive == True\n        )\n    ).all()",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.services",
         "documentation": {}
     },
@@ -11738,6 +11930,69 @@
         "documentation": {}
     },
     {
+        "label": "TestJudgeSystem",
+        "kind": 6,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "class TestJudgeSystem:\n    \"\"\"Comprehensive test suite for the judge system\"\"\"\n    @pytest.fixture(autouse=True)\n    def setup_test_data(self):\n        \"\"\"Set up test data before each test\"\"\"\n        db = TestingSessionLocal()\n        # Clean up existing data\n        db.query(ProjectJudge).delete()\n        db.query(Project).delete()\n        db.query(User).delete()",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "override_get_db",
+        "kind": 2,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "def override_get_db():\n    try:\n        db = TestingSessionLocal()\n        yield db\n    finally:\n        db.close()\napp.dependency_overrides[get_db] = override_get_db\n# Create test database\nBase.metadata.create_all(bind=engine)\nclient = TestClient(app)",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./test_judges.db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nTestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef override_get_db():\n    try:\n        db = TestingSessionLocal()\n        yield db\n    finally:\n        db.close()\napp.dependency_overrides[get_db] = override_get_db",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nTestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef override_get_db():\n    try:\n        db = TestingSessionLocal()\n        yield db\n    finally:\n        db.close()\napp.dependency_overrides[get_db] = override_get_db\n# Create test database",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "TestingSessionLocal",
+        "kind": 5,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef override_get_db():\n    try:\n        db = TestingSessionLocal()\n        yield db\n    finally:\n        db.close()\napp.dependency_overrides[get_db] = override_get_db\n# Create test database\nBase.metadata.create_all(bind=engine)",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "app.dependency_overrides[get_db]",
+        "kind": 5,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "app.dependency_overrides[get_db] = override_get_db\n# Create test database\nBase.metadata.create_all(bind=engine)\nclient = TestClient(app)\nclass TestJudgeSystem:\n    \"\"\"Comprehensive test suite for the judge system\"\"\"\n    @pytest.fixture(autouse=True)\n    def setup_test_data(self):\n        \"\"\"Set up test data before each test\"\"\"\n        db = TestingSessionLocal()",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "onchain_fastapi.tests.test_judges",
+        "description": "onchain_fastapi.tests.test_judges",
+        "peekOfCode": "client = TestClient(app)\nclass TestJudgeSystem:\n    \"\"\"Comprehensive test suite for the judge system\"\"\"\n    @pytest.fixture(autouse=True)\n    def setup_test_data(self):\n        \"\"\"Set up test data before each test\"\"\"\n        db = TestingSessionLocal()\n        # Clean up existing data\n        db.query(ProjectJudge).delete()\n        db.query(Project).delete()",
+        "detail": "onchain_fastapi.tests.test_judges",
+        "documentation": {}
+    },
+    {
         "label": "TestSubmissionIntegration",
         "kind": 6,
         "importPath": "onchain_fastapi.tests.test_submission_integration",
@@ -11753,6 +12008,42 @@
         "description": "onchain_fastapi.tests.test_submissions",
         "peekOfCode": "class TestSubmissions:\n    \"\"\"Test suite for submission workflows\"\"\"\n    @pytest.fixture\n    async def test_user(self, db_session: AsyncSession):\n        \"\"\"Create a test user\"\"\"\n        user = User(\n            name=\"Test User\",\n            email=\"test@example.com\",\n            username=\"testuser\",\n            password=\"hashedpassword\",",
         "detail": "onchain_fastapi.tests.test_submissions",
+        "documentation": {}
+    },
+    {
+        "label": "JudgeSystemIntegrationTest",
+        "kind": 6,
+        "importPath": "integration_test_judge_system",
+        "description": "integration_test_judge_system",
+        "peekOfCode": "class JudgeSystemIntegrationTest:\n    def __init__(self):\n        self.backend_url = \"http://localhost:8000\"\n        self.frontend_url = \"http://localhost:3001\"\n        # Test data\n        self.creator_token = \"test_creator_token\"\n        self.judge_token = \"test_judge_token\"\n        self.project_id = 1\n        self.judge_user_id = 2\n        self.test_results = []",
+        "detail": "integration_test_judge_system",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "integration_test_judge_system",
+        "description": "integration_test_judge_system",
+        "peekOfCode": "def main():\n    \"\"\"Main function\"\"\"\n    tester = JudgeSystemIntegrationTest()\n    tester.run_all_tests()\nif __name__ == \"__main__\":\n    main()",
+        "detail": "integration_test_judge_system",
+        "documentation": {}
+    },
+    {
+        "label": "JudgeSystemTester",
+        "kind": 6,
+        "importPath": "test_judge_system",
+        "description": "test_judge_system",
+        "peekOfCode": "class JudgeSystemTester:\n    def __init__(self):\n        self.backend_url = \"http://localhost:8000\"\n        self.frontend_url = \"http://localhost:3001\"\n        self.test_results = {\n            \"backend_tests\": {},\n            \"frontend_tests\": {},\n            \"integration_tests\": {},\n            \"total_passed\": 0,\n            \"total_failed\": 0",
+        "detail": "test_judge_system",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_judge_system",
+        "description": "test_judge_system",
+        "peekOfCode": "def main():\n    \"\"\"Main function\"\"\"\n    tester = JudgeSystemTester()\n    if len(sys.argv) > 1:\n        test_type = sys.argv[1]\n        if test_type == \"backend\":\n            tester.run_backend_tests()\n        elif test_type == \"frontend\":\n            tester.run_frontend_tests()\n        elif test_type == \"integration\":",
+        "detail": "test_judge_system",
         "documentation": {}
     },
     {
