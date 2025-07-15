@@ -505,7 +505,39 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -1738,6 +1770,22 @@
         "documentation": {}
     },
     {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "and_",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1747,6 +1795,14 @@
     },
     {
         "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -3104,6 +3160,14 @@
         "isExtraImport": true,
         "importPath": "enum",
         "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
         "detail": "enum",
         "documentation": {}
     },
@@ -8591,6 +8655,14 @@
         "documentation": {}
     },
     {
+        "label": "judgeRouter",
+        "importPath": "app.modules.projects.relatedEntities.judges.router",
+        "description": "app.modules.projects.relatedEntities.judges.router",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.router",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
@@ -10345,6 +10417,33 @@
         "documentation": {}
     },
     {
+        "label": "ScoreStatusEnum",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "peekOfCode": "class ScoreStatusEnum(enum.Enum):\n    \"\"\"Status of scoring for a submission\"\"\"\n    PENDING = \"pending\"\n    IN_REVIEW = \"in_review\"\n    COMPLETED = \"completed\"\nclass SubmissionScore(Base):\n    \"\"\"\n    Model for storing judge scores for individual submissions\n    Each submission can be scored by multiple judges\n    \"\"\"",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionScore",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "peekOfCode": "class SubmissionScore(Base):\n    \"\"\"\n    Model for storing judge scores for individual submissions\n    Each submission can be scored by multiple judges\n    \"\"\"\n    __tablename__ = \"submissionScores\"\n    id = Column(Integer, primary_key=True, index=True)\n    # Foreign keys\n    submissionForSubmittalId = Column(Integer, ForeignKey(\"submissionForSubmittals.id\", ondelete=\"CASCADE\"), nullable=False)\n    judgeId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleScoringSession",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "peekOfCode": "class ModuleScoringSession(Base):\n    \"\"\"\n    Model for tracking judge scoring sessions for modules\n    Helps manage the review workflow and bulk operations\n    \"\"\"\n    __tablename__ = \"moduleScoringSessions\"\n    id = Column(Integer, primary_key=True, index=True)\n    # Foreign keys\n    moduleId = Column(Integer, ForeignKey(\"modules.id\", ondelete=\"CASCADE\"), nullable=False)\n    judgeId = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
         "label": "judgeRouter",
         "kind": 5,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.router",
@@ -10439,7 +10538,214 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class JudgeInvitationSummary(BaseModel):\n    \"\"\"Summary of pending judge invitations\"\"\"\n    totalInvitations: int\n    pendingInvitations: int\n    acceptedInvitations: int\n    declinedInvitations: int",
+        "peekOfCode": "class JudgeInvitationSummary(BaseModel):\n    \"\"\"Summary of pending judge invitations\"\"\"\n    totalInvitations: int\n    pendingInvitations: int\n    acceptedInvitations: int\n    declinedInvitations: int\n# Scoring System Schemas\nclass ScoreStatusEnum(str, Enum):\n    \"\"\"Status of scoring for a submission\"\"\"\n    PENDING = \"pending\"",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoreStatusEnum",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ScoreStatusEnum(str, Enum):\n    \"\"\"Status of scoring for a submission\"\"\"\n    PENDING = \"pending\"\n    IN_REVIEW = \"in_review\"\n    COMPLETED = \"completed\"\nclass SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to score a submission\"\"\"\n    submissionForSubmittalId: int\n    score: Optional[float] = None\n    maxScore: float = 10.0",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionScoreRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to score a submission\"\"\"\n    submissionForSubmittalId: int\n    score: Optional[float] = None\n    maxScore: float = 10.0\n    comments: Optional[str] = None\nclass SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionScoreResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    score: Optional[float]\n    maxScore: float\n    comments: Optional[str]\n    status: str\n    createdAt: Optional[datetime]\n    updatedAt: Optional[datetime]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionScoreResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submission score\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    judgeId: int\n    score: Optional[float]\n    maxScore: float\n    comments: Optional[str]\n    status: ScoreStatusEnum\n    isReviewed: bool",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleScoringSessionResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleScoringSessionResponse(BaseModel):\n    \"\"\"Response for module scoring session\"\"\"\n    id: int\n    moduleId: int\n    judgeId: int\n    status: ScoreStatusEnum\n    totalSubmissions: int\n    scoredSubmissions: int\n    isInReviewMode: bool\n    reviewStartedAt: Optional[datetime]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForScoringResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionForScoringResponse(BaseModel):\n    \"\"\"Detailed submission data for scoring interface\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    submissionData: str  # The actual submission (link, file path, etc.)\n    submissionType: str  # \"link\", \"file\", etc.\n    submittedAt: datetime\n    # User info\n    userId: int\n    userName: str",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleScoringOverviewResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleScoringOverviewResponse(BaseModel):\n    \"\"\"Overview of module scoring for judge\"\"\"\n    moduleId: int\n    moduleTitle: str\n    moduleDescription: Optional[str]\n    # Scoring progress\n    totalSubmissions: int\n    scoredSubmissions: int\n    pendingSubmissions: int\n    # Session info",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BulkScoreRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class BulkScoreRequest(BaseModel):\n    \"\"\"Request to submit multiple scores at once\"\"\"\n    moduleId: int\n    scores: List[SubmissionScoreRequest]\n    moveToReview: bool = False\nclass ReviewModeRequest(BaseModel):\n    \"\"\"Request to enter or exit review mode\"\"\"\n    moduleId: int\n    enterReview: bool\nclass FinalizeScoresRequest(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewModeRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ReviewModeRequest(BaseModel):\n    \"\"\"Request to enter or exit review mode\"\"\"\n    moduleId: int\n    enterReview: bool\nclass FinalizeScoresRequest(BaseModel):\n    \"\"\"Request to finalize all scores for a module\"\"\"\n    moduleId: int\nclass ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "FinalizeScoresRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class FinalizeScoresRequest(BaseModel):\n    \"\"\"Request to finalize all scores for a module\"\"\"\n    moduleId: int\nclass ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleCompletionRequest",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleCompletionResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str\n    points: Optional[int]\n    isApproved: bool\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionStats",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleSubmissionStats(BaseModel):\n    \"\"\"Statistics for module submissions\"\"\"\n    total: int\n    started: int\n    pending: int\n    approved: int\n    rejected: int\n    class Config:\n        from_attributes = True\nclass JudgeModuleOverviewResponse(BaseModel):",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "JudgeModuleOverviewResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class JudgeModuleOverviewResponse(BaseModel):\n    \"\"\"Module overview for judge with submission statistics\"\"\"\n    id: int\n    title: str\n    description: Optional[str]\n    points: int\n    moduleNo: int\n    category: str\n    publishedOn: datetime\n    expiredOn: Optional[datetime]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleSubmissionListResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleSubmissionListResponse(BaseModel):\n    \"\"\"Response for module submission list\"\"\"\n    id: int\n    moduleId: int\n    userId: int\n    userName: str\n    # userEmail: str\n    status: str\n    point: Optional[int]\n    createdAt: datetime",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmittalInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmittalInfo(BaseModel):\n    \"\"\"Submittal information\"\"\"\n    id: int\n    title: str\n    type: str\n    requirementNo: int\n    class Config:\n        from_attributes = True\nclass SubmissionForSubmittalInfo(BaseModel):\n    \"\"\"Submission for submittal information\"\"\"",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForSubmittalInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionForSubmittalInfo(BaseModel):\n    \"\"\"Submission for submittal information\"\"\"\n    id: int\n    submittalId: int\n    submissionForModuleId: int\n    content: Optional[str]\n    file: Optional[str]\n    status: str\n    createdAt: datetime\n    updatedAt: Optional[datetime]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionScoreInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionScoreInfo(BaseModel):\n    \"\"\"Submission score information\"\"\"\n    id: int\n    score: Optional[float]\n    maxScore: float\n    comments: Optional[str]\n    status: str\n    isReviewed: bool\n    createdAt: datetime\n    updatedAt: Optional[datetime]",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmittalSubmissionData",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmittalSubmissionData(BaseModel):\n    \"\"\"Combined submittal and submission data\"\"\"\n    submittal: SubmittalInfo\n    submission: Optional[SubmissionForSubmittalInfo]\n    score: Optional[SubmissionScoreInfo]\n    class Config:\n        from_attributes = True\nclass ModuleInfo(BaseModel):\n    \"\"\"Module information\"\"\"\n    id: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ModuleInfo(BaseModel):\n    \"\"\"Module information\"\"\"\n    id: int\n    title: str\n    points: int\n    class Config:\n        from_attributes = True\nclass SubmissionInfo(BaseModel):\n    \"\"\"Submission information\"\"\"\n    id: int",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionInfo",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionInfo(BaseModel):\n    \"\"\"Submission information\"\"\"\n    id: int\n    moduleId: int\n    userId: int\n    userName: str\n    # userEmail: str\n    status: str\n    point: Optional[int]\n    createdAt: datetime",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ScoringStatus",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class ScoringStatus(BaseModel):\n    \"\"\"Scoring status information\"\"\"\n    isInReviewMode: bool\n    isCompleted: bool\n    class Config:\n        from_attributes = True\nclass SubmissionDetailsResponse(BaseModel):\n    \"\"\"Response for submission details\"\"\"\n    module: ModuleInfo\n    submission: SubmissionInfo",
+        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionDetailsResponse",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
+        "peekOfCode": "class SubmissionDetailsResponse(BaseModel):\n    \"\"\"Response for submission details\"\"\"\n    module: ModuleInfo\n    submission: SubmissionInfo\n    submittals: List[SubmittalSubmissionData]\n    scoringStatus: ScoringStatus\n    canScore: bool\n    class Config:\n        from_attributes = True",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -11654,7 +11960,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.routes.router",
         "description": "onchain_fastapi.app.routes.router",
-        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])\n# router.include_router(judge_router, prefix=\"/projects\", tags=[\"Project Judges\"])",
+        "peekOfCode": "router = APIRouter()\n# calling a router depends on prefix\nrouter.include_router(user_router, prefix=\"/users\", tags=[\"Users\"])\nrouter.include_router(predefine_router, prefix=\"/predefines\", tags=[\"Predefines\"])\nrouter.include_router(project_router, prefix=\"/projects\", tags=[\"Projects\"])\nrouter.include_router(file_router, prefix=\"/files\", tags=[\"Files\"])\nrouter.include_router(submission_for_project_router, prefix=\"/submissions/projects\", tags=[\"Project Submissions\"])\nrouter.include_router(submission_for_module_router, prefix=\"/submissions/modules\", tags=[\"Module Submissions\"])\nrouter.include_router(submission_for_submittal_router, prefix=\"/submissions/submittals\", tags=[\"Submittal Submissions\"])\nrouter.include_router(judge_router, prefix=\"/projects/project_judges\", tags=[\"Project Judges\"])",
         "detail": "onchain_fastapi.app.routes.router",
         "documentation": {}
     },
