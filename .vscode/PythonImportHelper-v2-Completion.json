@@ -121,6 +121,38 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TypedDict",
         "importPath": "typing",
         "description": "typing",
@@ -617,6 +649,14 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -1062,6 +1102,22 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -2002,6 +2058,14 @@
         "documentation": {}
     },
     {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -2642,6 +2706,14 @@
         "documentation": {}
     },
     {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -2655,6 +2727,14 @@
         "description": "sqlalchemy",
         "isExtraImport": true,
         "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
         "documentation": {}
     },
     {
@@ -3124,6 +3204,30 @@
     },
     {
         "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -5919,6 +6023,22 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "create_async_engine",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
@@ -7621,6 +7741,14 @@
         "documentation": {}
     },
     {
+        "label": "PredefinedProjectCategory",
+        "importPath": "app.modules.predefines.projectCategories.models",
+        "description": "app.modules.predefines.projectCategories.models",
+        "isExtraImport": true,
+        "detail": "app.modules.predefines.projectCategories.models",
+        "documentation": {}
+    },
+    {
         "label": "query_builder",
         "importPath": "app.utils.query_builder",
         "description": "app.utils.query_builder",
@@ -9294,6 +9422,42 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "description": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    # Table already exists, just marking it as tracked by Alembic\n    # The table was recreated manually to fix the missing table issue\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    # Don't drop the table in downgrade to prevent data loss\n    pass",
+        "detail": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "description": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    # Don't drop the table in downgrade to prevent data loss\n    pass\n    # ### end Alembic commands ###",
+        "detail": "onchain_fastapi.alembic.versions.973cd6f925f3_recreate_predefined_project_categories_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "description": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('predefinedProjectCategories')\n    op.alter_column('achievements', 'photoUrl',\n               existing_type=sa.VARCHAR(length=255),\n               nullable=True)\n    op.create_foreign_key(None, 'submissionScores', 'submissionForSubmittals', ['submissionForSubmittalId'], ['id'], ondelete='CASCADE')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "description": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'submissionScores', type_='foreignkey')\n    op.alter_column('achievements', 'photoUrl',\n               existing_type=sa.VARCHAR(length=255),\n               nullable=False)\n    op.create_table('predefinedProjectCategories',\n    sa.Column('id', sa.INTEGER(), server_default=sa.text('nextval(\\'\"predefinedProjectCategories_id_seq\"\\'::regclass)'), autoincrement=True, nullable=False),\n    sa.Column('title', sa.VARCHAR(length=50), autoincrement=False, nullable=False),\n    sa.Column('createdByUserId', sa.INTEGER(), autoincrement=False, nullable=False),",
+        "detail": "onchain_fastapi.alembic.versions.97d9ee82d4a4_make_achievement_photourl_nullable",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
         "description": "onchain_fastapi.alembic.versions.d4d8d3124f3f_add_judge_panel_point_transactions_and_",
         "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('predefinedProjectCategories')\n    op.alter_column('arrangements', 'eventStartsOn',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),\n               existing_nullable=True)\n    op.alter_column('arrangements', 'eventEndsOn',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),",
@@ -10070,7 +10234,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
-        "peekOfCode": "class AchievementForEnum(str, enum.Enum):\n    individual = \"individual\"\n    team = \"team\"\nclass Achievement(Base):\n    __tablename__ = \"achievements\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String(255), nullable=False)\n    photoUrl = Column(String(255), nullable=False)\n    descriptionBeforeUnLocked = Column(Text, nullable=True)\n    descriptionAfterUnLocked = Column(Text, nullable=True)",
+        "peekOfCode": "class AchievementForEnum(str, enum.Enum):\n    individual = \"individual\"\n    team = \"team\"\nclass Achievement(Base):\n    __tablename__ = \"achievements\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String(255), nullable=False)\n    photoUrl = Column(String(255), nullable=True)\n    descriptionBeforeUnLocked = Column(Text, nullable=True)\n    descriptionAfterUnLocked = Column(Text, nullable=True)",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
         "documentation": {}
     },
@@ -10079,7 +10243,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
-        "peekOfCode": "class Achievement(Base):\n    __tablename__ = \"achievements\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String(255), nullable=False)\n    photoUrl = Column(String(255), nullable=False)\n    descriptionBeforeUnLocked = Column(Text, nullable=True)\n    descriptionAfterUnLocked = Column(Text, nullable=True)\n    rule = Column(Enum(AchievementRuleEnum), nullable=False)\n    achievementFor = Column(Enum(AchievementForEnum), nullable=False)\n    # Rule-specific fields",
+        "peekOfCode": "class Achievement(Base):\n    __tablename__ = \"achievements\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String(255), nullable=False)\n    photoUrl = Column(String(255), nullable=True)\n    descriptionBeforeUnLocked = Column(Text, nullable=True)\n    descriptionAfterUnLocked = Column(Text, nullable=True)\n    rule = Column(Enum(AchievementRuleEnum), nullable=False)\n    achievementFor = Column(Enum(AchievementForEnum), nullable=False)\n    # Rule-specific fields",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.achievements.models",
         "documentation": {}
     },
