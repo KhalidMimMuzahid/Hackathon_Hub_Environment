@@ -2586,6 +2586,22 @@
         "documentation": {}
     },
     {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "postgresql",
         "importPath": "sqlalchemy.dialects",
         "description": "sqlalchemy.dialects",
@@ -5839,6 +5855,22 @@
         "documentation": {}
     },
     {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "schema",
         "importPath": "app.graphqlSchema.schema",
         "description": "app.graphqlSchema.schema",
@@ -6523,6 +6555,14 @@
     },
     {
         "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -7914,6 +7954,14 @@
         "documentation": {}
     },
     {
+        "label": "ProjectJudge",
+        "importPath": "app.modules.projects.relatedEntities.judges.models",
+        "description": "app.modules.projects.relatedEntities.judges.models",
+        "isExtraImport": true,
+        "detail": "app.modules.projects.relatedEntities.judges.models",
+        "documentation": {}
+    },
+    {
         "label": "app.modules.submissions.submissionForModule.models",
         "kind": 6,
         "isExtraImport": true,
@@ -9002,6 +9050,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -9026,15 +9083,6 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
         "documentation": {}
     },
     {
