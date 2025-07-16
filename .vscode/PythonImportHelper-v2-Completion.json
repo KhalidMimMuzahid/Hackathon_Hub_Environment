@@ -7516,6 +7516,14 @@
         "documentation": {}
     },
     {
+        "label": "SubmissionForProject",
+        "importPath": "app.modules.submissions.submissionForProject.models",
+        "description": "app.modules.submissions.submissionForProject.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForProject.models",
+        "documentation": {}
+    },
+    {
         "label": "SubmissionStatusEnum",
         "importPath": "app.modules.submissions.submissionForProject.models",
         "description": "app.modules.submissions.submissionForProject.models",
@@ -10711,7 +10719,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class ScoreStatusEnum(str, Enum):\n    \"\"\"Status of scoring for a submission\"\"\"\n    PENDING = \"pending\"\n    IN_REVIEW = \"in_review\"\n    COMPLETED = \"completed\"\nclass SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to score a submission\"\"\"\n    submissionForSubmittalId: int\n    score: Optional[float] = None\n    maxScore: float = 10.0",
+        "peekOfCode": "class ScoreStatusEnum(str, Enum):\n    \"\"\"Status of scoring for a submission\"\"\"\n    PENDING = \"pending\"\n    IN_REVIEW = \"in_review\"\n    COMPLETED = \"completed\"\nclass SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to update submittal submission comments and status\"\"\"\n    submissionForSubmittalId: int\n    comments: Optional[str] = None\n    status: Optional[str] = None  # \"pending\", \"approved\", \"rejected\"",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10720,7 +10728,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to score a submission\"\"\"\n    submissionForSubmittalId: int\n    score: Optional[float] = None\n    maxScore: float = 10.0\n    comments: Optional[str] = None\nclass SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int",
+        "peekOfCode": "class SubmissionScoreRequest(BaseModel):\n    \"\"\"Request to update submittal submission comments and status\"\"\"\n    submissionForSubmittalId: int\n    comments: Optional[str] = None\n    status: Optional[str] = None  # \"pending\", \"approved\", \"rejected\"\nclass SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    comments: Optional[str]",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10729,16 +10737,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    score: Optional[float]\n    maxScore: float\n    comments: Optional[str]\n    status: str\n    createdAt: Optional[datetime]\n    updatedAt: Optional[datetime]",
-        "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "SubmissionScoreResponse",
-        "kind": 6,
-        "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submission score\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    judgeId: int\n    score: Optional[float]\n    maxScore: float\n    comments: Optional[str]\n    status: ScoreStatusEnum\n    isReviewed: bool",
+        "peekOfCode": "class SubmissionScoreResponse(BaseModel):\n    \"\"\"Response for submittal scoring\"\"\"\n    id: int\n    submissionForSubmittalId: int\n    comments: Optional[str]\n    status: str\n    createdAt: Optional[datetime]\n    updatedAt: Optional[datetime]\n    class Config:\n        from_attributes = True",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10792,7 +10791,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class FinalizeScoresRequest(BaseModel):\n    \"\"\"Request to finalize all scores for a module\"\"\"\n    moduleId: int\nclass ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"",
+        "peekOfCode": "class FinalizeScoresRequest(BaseModel):\n    \"\"\"Request to finalize all scores for a module\"\"\"\n    moduleId: int\nclass ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\n    comments: Optional[str] = None\nclass ModuleCompletionResponse(BaseModel):",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10801,7 +10800,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str",
+        "peekOfCode": "class ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\n    comments: Optional[str] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10810,7 +10809,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str\n    points: Optional[int]\n    isApproved: bool\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str\n    points: Optional[int]\n    comments: Optional[str]\n    isApproved: bool\n    updatedAt: datetime\n    class Config:",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -10855,7 +10854,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class SubmissionForSubmittalInfo(BaseModel):\n    \"\"\"Submission for submittal information\"\"\"\n    id: int\n    submittalId: int\n    submissionForModuleId: int\n    content: Optional[str]\n    file: Optional[str]\n    status: str\n    createdAt: datetime\n    updatedAt: Optional[datetime]",
+        "peekOfCode": "class SubmissionForSubmittalInfo(BaseModel):\n    \"\"\"Submission for submittal information\"\"\"\n    id: int\n    submittalId: int\n    content: Optional[str]\n    file: Optional[str]\n    comment: Optional[str]\n    status: str\n    createdAt: datetime\n    updatedAt: Optional[datetime]",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -11674,7 +11673,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
-        "peekOfCode": "class SubmissionStatusEnum(str, enum.Enum):\n    started = \"started\"\n    pending = \"pending\"\n    approved = \"approved\"\n    rejected = \"rejected\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"",
+        "peekOfCode": "class SubmissionStatusEnum(str, enum.Enum):\n    pending = \"pending\"\n    approved = \"approved\"\n    rejected = \"rejected\"\nclass SubmittedViaEnum(str, enum.Enum):\n    user = \"user\"\n    team = \"team\"\nclass SubmissionForSubmittal(Base):\n    __tablename__ = \"submissionForSubmittals\"\n    id = Column(Integer, primary_key=True, index=True)",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.models",
         "documentation": {}
     },
@@ -11737,7 +11736,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
-        "peekOfCode": "class SubmissionForSubmittalUpdateRequest(BaseModel):\n    submission_text: Optional[str] = None\n    submission_link: Optional[str] = None\n    # submission_file will be handled separately as UploadFile\nclass SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None",
+        "peekOfCode": "class SubmissionForSubmittalUpdateRequest(BaseModel):\n    submission_text: Optional[str] = None\n    submission_link: Optional[str] = None\n    # submission_file will be handled separately as UploadFile\nclass SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    lateSubmission: Optional[bool] = None",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "documentation": {}
     },
@@ -11746,7 +11745,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
-        "peekOfCode": "class SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
+        "peekOfCode": "class SubmissionForSubmittalUpdateResponse(SubmissionForSubmittalCreateResponse):\n    pass\nclass SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "documentation": {}
     },
@@ -11755,7 +11754,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "description": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
-        "peekOfCode": "class SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    point: Optional[int] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
+        "peekOfCode": "class SubmissionForSubmittalGradeRequest(BaseModel):\n    comment: Optional[str] = None\n    status: Optional[SubmissionStatusEnum] = None\n    lateSubmission: Optional[bool] = None\nclass SubmissionForSubmittalGradeResponse(SubmissionForSubmittalCreateResponse):\n    pass",
         "detail": "onchain_fastapi.app.modules.submissions.submissionForSubmittal.schemas",
         "documentation": {}
     },
@@ -12097,7 +12096,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.responses.models",
         "description": "onchain_fastapi.app.responses.models",
-        "peekOfCode": "class MetaData(BaseModel):\n    prev: Optional[int]  # Can be int or None\n    next: Optional[int]  # Can be int or None\n    current: int\n    total: int # total number of pages depending on page limit\n    class Config:\n        orm_mode = True\nclass Response(BaseModel, Generic[T]):\n    is_success: bool = True\n    message: str",
+        "peekOfCode": "class MetaData(BaseModel):\n    prev: Optional[int]  # Can be int or None\n    next: Optional[int]  # Can be int or None\n    current: int\n    total: int # total number of pages depending on page limit\n    additional: Optional[Any] = None  \n    class Config:\n        orm_mode = True\nclass Response(BaseModel, Generic[T]):\n    is_success: bool = True",
         "detail": "onchain_fastapi.app.responses.models",
         "documentation": {}
     },
@@ -12115,7 +12114,7 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.responses.models",
         "description": "onchain_fastapi.app.responses.models",
-        "peekOfCode": "T = TypeVar(\"T\")\nclass MetaData(BaseModel):\n    prev: Optional[int]  # Can be int or None\n    next: Optional[int]  # Can be int or None\n    current: int\n    total: int # total number of pages depending on page limit\n    class Config:\n        orm_mode = True\nclass Response(BaseModel, Generic[T]):\n    is_success: bool = True",
+        "peekOfCode": "T = TypeVar(\"T\")\nclass MetaData(BaseModel):\n    prev: Optional[int]  # Can be int or None\n    next: Optional[int]  # Can be int or None\n    current: int\n    total: int # total number of pages depending on page limit\n    additional: Optional[Any] = None  \n    class Config:\n        orm_mode = True\nclass Response(BaseModel, Generic[T]):",
         "detail": "onchain_fastapi.app.responses.models",
         "documentation": {}
     },
