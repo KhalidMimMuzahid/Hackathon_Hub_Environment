@@ -2770,6 +2770,22 @@
         "documentation": {}
     },
     {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "delete",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -3300,6 +3316,14 @@
     },
     {
         "label": "engine",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "app.database",
         "description": "app.database",
         "isExtraImport": true,
@@ -5527,6 +5551,14 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "app.modules.users.models",
+        "description": "app.modules.users.models",
+        "isExtraImport": true,
+        "detail": "app.modules.users.models",
+        "documentation": {}
+    },
+    {
         "label": "UserType",
         "importPath": "app.graphqlSchema.modules.users.types",
         "description": "app.graphqlSchema.modules.users.types",
@@ -6112,6 +6144,14 @@
     },
     {
         "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
         "importPath": "sqlalchemy.ext.asyncio",
         "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
@@ -7619,6 +7659,22 @@
         "documentation": {}
     },
     {
+        "label": "PointTransaction",
+        "importPath": "app.modules.pointTransactions.models",
+        "description": "app.modules.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionType",
+        "importPath": "app.modules.pointTransactions.models",
+        "description": "app.modules.pointTransactions.models",
+        "isExtraImport": true,
+        "detail": "app.modules.pointTransactions.models",
+        "documentation": {}
+    },
+    {
         "label": "app.modules.submissions.submissionForProject.models",
         "kind": 6,
         "isExtraImport": true,
@@ -7949,6 +8005,14 @@
         "documentation": {}
     },
     {
+        "label": "PointTransactionCreateRequest",
+        "importPath": "app.modules.pointTransactions.schemas",
+        "description": "app.modules.pointTransactions.schemas",
+        "isExtraImport": true,
+        "detail": "app.modules.pointTransactions.schemas",
+        "documentation": {}
+    },
+    {
         "label": "LeaderboardRequest",
         "importPath": "app.modules.pointTransactions.schemas",
         "description": "app.modules.pointTransactions.schemas",
@@ -7990,6 +8054,14 @@
     },
     {
         "label": "get_leaderboard",
+        "importPath": "app.modules.pointTransactions.services",
+        "description": "app.modules.pointTransactions.services",
+        "isExtraImport": true,
+        "detail": "app.modules.pointTransactions.services",
+        "documentation": {}
+    },
+    {
+        "label": "create_point_transaction",
         "importPath": "app.modules.pointTransactions.services",
         "description": "app.modules.pointTransactions.services",
         "isExtraImport": true,
@@ -8152,6 +8224,14 @@
     },
     {
         "label": "SubmissionStatusEnum",
+        "importPath": "app.modules.submissions.submissionForModule.models",
+        "description": "app.modules.submissions.submissionForModule.models",
+        "isExtraImport": true,
+        "detail": "app.modules.submissions.submissionForModule.models",
+        "documentation": {}
+    },
+    {
+        "label": "SubmissionForModule",
         "importPath": "app.modules.submissions.submissionForModule.models",
         "description": "app.modules.submissions.submissionForModule.models",
         "isExtraImport": true,
@@ -10544,7 +10624,16 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.pointTransactions.models",
         "description": "onchain_fastapi.app.modules.pointTransactions.models",
-        "peekOfCode": "class TransactionType(enum.Enum):\n    \"\"\"Types of point transactions\"\"\"\n    module_completion = \"module_completion\"\n    project_completion = \"project_completion\"\n    bonus_award = \"bonus_award\"\n    penalty_deduction = \"penalty_deduction\"\n    manual_adjustment = \"manual_adjustment\"\nclass PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions in the system.",
+        "peekOfCode": "class TransactionType(enum.Enum):\n    \"\"\"Types of point transactions\"\"\"\n    module_completion = \"module_completion\"\n    project_completion = \"project_completion\"\n    bonus_award = \"bonus_award\"\n    penalty_deduction = \"penalty_deduction\"\n    manual_adjustment = \"manual_adjustment\"\nclass TransactionStatus(enum.Enum):\n    \"\"\"Status of point transactions\"\"\"\n    pending = \"pending\"",
+        "detail": "onchain_fastapi.app.modules.pointTransactions.models",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionStatus",
+        "kind": 6,
+        "importPath": "onchain_fastapi.app.modules.pointTransactions.models",
+        "description": "onchain_fastapi.app.modules.pointTransactions.models",
+        "peekOfCode": "class TransactionStatus(enum.Enum):\n    \"\"\"Status of point transactions\"\"\"\n    pending = \"pending\"\n    completed = \"completed\"\n    failed = \"failed\"\n    cancelled = \"cancelled\"\nclass PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions in the system.\n    This enables leaderboard functionality with time-based filtering",
         "detail": "onchain_fastapi.app.modules.pointTransactions.models",
         "documentation": {}
     },
@@ -10553,7 +10642,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.pointTransactions.models",
         "description": "onchain_fastapi.app.modules.pointTransactions.models",
-        "peekOfCode": "class PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions in the system.\n    This enables leaderboard functionality with time-based filtering\n    and provides complete audit trail of point awards.\n    \"\"\"\n    __tablename__ = 'pointTransactions'\n    id = Column(Integer, primary_key=True, index=True)\n    # Point details\n    points = Column(Integer, nullable=False)  # Can be positive or negative",
+        "peekOfCode": "class PointTransaction(Base):\n    \"\"\"\n    Model for tracking all point transactions in the system.\n    This enables leaderboard functionality with time-based filtering\n    and provides complete audit trail of point awards.\n    \"\"\"\n    __tablename__ = 'pointTransactions'\n    id = Column(Integer, primary_key=True, index=True)\n    # User relationships (matching existing table structure)\n    userId = Column(Integer, ForeignKey('users.id'), nullable=False, index=True)  # The user receiving/losing points",
         "detail": "onchain_fastapi.app.modules.pointTransactions.models",
         "documentation": {}
     },
@@ -10580,7 +10669,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.pointTransactions.schemas",
         "description": "onchain_fastapi.app.modules.pointTransactions.schemas",
-        "peekOfCode": "class PointTransactionCreateRequest(BaseModel):\n    \"\"\"Request to create a new point transaction\"\"\"\n    points: int = Field(..., description=\"Points to award (positive) or deduct (negative)\")\n    transactionType: TransactionTypeEnum\n    description: Optional[str] = Field(None, description=\"Optional description of the transaction\")\n    solverUserId: int = Field(..., description=\"ID of the user receiving/losing points\")\n    judgeUserId: Optional[int] = Field(None, description=\"ID of the judge awarding points (null for system transactions)\")\n    moduleId: Optional[int] = Field(None, description=\"ID of the module (for module-related transactions)\")\n    projectId: Optional[int] = Field(None, description=\"ID of the project (for easier querying)\")\n    submissionForModuleId: Optional[int] = Field(None, description=\"ID of the submission for audit trail\")",
+        "peekOfCode": "class PointTransactionCreateRequest(BaseModel):\n    \"\"\"Request to create a new point transaction\"\"\"\n    points: int = Field(..., description=\"Points to award (positive) or deduct (negative)\")\n    transactionType: TransactionTypeEnum\n    description: Optional[str] = Field(None, description=\"Optional description of the transaction\")\n    userId: int = Field(..., description=\"ID of the user receiving/losing points\")\n    awardedByUserId: Optional[int] = Field(None, description=\"ID of the judge awarding points (null for system transactions)\")\n    moduleId: Optional[int] = Field(None, description=\"ID of the module (for module-related transactions)\")\n    projectId: Optional[int] = Field(None, description=\"ID of the project (for easier querying)\")\n    submissionForModuleId: Optional[int] = Field(None, description=\"ID of the submission for audit trail\")",
         "detail": "onchain_fastapi.app.modules.pointTransactions.schemas",
         "documentation": {}
     },
@@ -10589,7 +10678,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.pointTransactions.schemas",
         "description": "onchain_fastapi.app.modules.pointTransactions.schemas",
-        "peekOfCode": "class PointTransactionResponse(BaseModel):\n    \"\"\"Response for point transaction operations\"\"\"\n    id: int\n    points: int\n    transactionType: TransactionTypeEnum\n    description: Optional[str]\n    solverUserId: int\n    judgeUserId: Optional[int]\n    moduleId: Optional[int]\n    projectId: Optional[int]",
+        "peekOfCode": "class PointTransactionResponse(BaseModel):\n    \"\"\"Response for point transaction operations\"\"\"\n    id: int\n    points: int\n    transactionType: TransactionTypeEnum\n    description: Optional[str]\n    userId: int\n    awardedByUserId: Optional[int]\n    moduleId: Optional[int]\n    projectId: Optional[int]",
         "detail": "onchain_fastapi.app.modules.pointTransactions.schemas",
         "documentation": {}
     },
