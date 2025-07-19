@@ -11434,7 +11434,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\n    comments: Optional[str] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int",
+        "peekOfCode": "class ModuleCompletionRequest(BaseModel):\n    \"\"\"Request to complete module scoring (approve/reject)\"\"\"\n    submissionId: int\n    isApproved: bool\n    points: Optional[int] = None\n    comments: Optional[str] = None\nclass ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    transactionId: Optional[int] = None\n    submissionId: int",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
@@ -11443,7 +11443,7 @@
         "kind": 6,
         "importPath": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "description": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
-        "peekOfCode": "class ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    submissionId: int\n    moduleId: int\n    status: str\n    points: Optional[int]\n    comments: Optional[str]\n    isApproved: bool\n    updatedAt: datetime\n    class Config:",
+        "peekOfCode": "class ModuleCompletionResponse(BaseModel):\n    \"\"\"Response for module completion\"\"\"\n    transactionId: Optional[int] = None\n    submissionId: int\n    moduleId: int\n    status: str\n    points: Optional[int]\n    comments: Optional[str]\n    isApproved: bool\n    updatedAt: datetime",
         "detail": "onchain_fastapi.app.modules.projects.relatedEntities.judges.schemas",
         "documentation": {}
     },
