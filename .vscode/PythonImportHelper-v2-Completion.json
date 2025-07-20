@@ -12793,7 +12793,25 @@
         "kind": 5,
         "importPath": "onchain_fastapi.app.main",
         "description": "onchain_fastapi.app.main",
-        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # Replace with your frontend URL\n    allow_credentials=True,\n    allow_methods=[\"*\"],  # Allow all methods (GET, POST, etc.)\n    allow_headers=[\"*\"],  # Allow all headers\n)\n# # If you want to automatically initialize your DB on startup,\n@app.on_event(\"startup\")",
+        "peekOfCode": "app = FastAPI()\n# Get CORS origins from environment variable\ncors_origins = os.getenv(\"CORS_ORIGINS\", \"http://localhost:3000\").split(\",\")\ncors_origins = [origin.strip() for origin in cors_origins]  # Clean whitespace\nprint(f\"🔧 CORS Origins configured: {cors_origins}\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=cors_origins,  # Use environment variable instead of \"*\"\n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],",
+        "detail": "onchain_fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors_origins",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.main",
+        "description": "onchain_fastapi.app.main",
+        "peekOfCode": "cors_origins = os.getenv(\"CORS_ORIGINS\", \"http://localhost:3000\").split(\",\")\ncors_origins = [origin.strip() for origin in cors_origins]  # Clean whitespace\nprint(f\"🔧 CORS Origins configured: {cors_origins}\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=cors_origins,  # Use environment variable instead of \"*\"\n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "onchain_fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "cors_origins",
+        "kind": 5,
+        "importPath": "onchain_fastapi.app.main",
+        "description": "onchain_fastapi.app.main",
+        "peekOfCode": "cors_origins = [origin.strip() for origin in cors_origins]  # Clean whitespace\nprint(f\"🔧 CORS Origins configured: {cors_origins}\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=cors_origins,  # Use environment variable instead of \"*\"\n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],\n    allow_headers=[\"*\"],\n)\n# # If you want to automatically initialize your DB on startup,",
         "detail": "onchain_fastapi.app.main",
         "documentation": {}
     },
