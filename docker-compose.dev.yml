@@ -1,6 +1,27 @@
 version: '3.8'
 
 services:
+  # PostgreSQL Database for development
+  db:
+    image: postgres:15-alpine
+    container_name: hub_dev_db
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d hub"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
   # Backend FastAPI service (development)
   backend-dev:
     build:
@@ -8,18 +29,22 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+    env_file:
+      - .env
     environment:
       - PYTHONPATH=/app
-      - DATABASE_URL=sqlite:///./app.db
     volumes:
       - ./onchain_fastapi:/app
       - backend_data:/app/data
     command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
     restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
     networks:
       - app-network
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -32,9 +57,10 @@ services:
       dockerfile: Dockerfile.dev
     ports:
       - "3001:3000"
+    env_file:
+      - .env
     environment:
       - NODE_ENV=development
-      - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000/api/v1}
     volumes:
       - ./hub_nextjs:/app
       - /app/node_modules
@@ -48,6 +74,7 @@ services:
 
 volumes:
   backend_data:
+  postgres_dev_data:
 
 networks:
   app-network:
